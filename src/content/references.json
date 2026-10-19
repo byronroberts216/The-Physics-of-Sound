@@ -1,0 +1,350 @@
+[
+  {
+    "id": "os-units",
+    "title": "Units and Standards",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "1.2",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/1-2-units-and-standards",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Length, time, mass, SI base/derived units and prefixes."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "11e04537607bc487ac410af4d4fb1120ecb7b5e174f21742f01c80ca5fc28b16"
+  },
+  {
+    "id": "os-graphs",
+    "title": "Position, Displacement, and Average Velocity",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "3.1",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/3-1-position-displacement-and-average-velocity",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Signed displacement, reference frames, average velocity."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "0ac1f7ca6da17a3779849f0014dd6b5aad61b38897c1ca6e713896e585cdd00a"
+  },
+  {
+    "id": "os-force",
+    "title": "Forces",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "5.1",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/5-1-forces",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Force as interaction; net force and vectors."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "eaa6b5ba33d8d2f9682632bb3514bade2c449dd077635e18aff45a0272144cf3"
+  },
+  {
+    "id": "os-energy",
+    "title": "Kinetic Energy",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "7.2",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/7-2-kinetic-energy",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "K = \u00bdmv\u00b2; classical nonrelativistic particles."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "b9b94666f88087e2d5ea6800f04a94debb080c01acc57b02c0e13767933d5420"
+  },
+  {
+    "id": "os-pressure",
+    "title": "Fluids, Density, and Pressure",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "14.1",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/14-1-fluids-density-and-pressure",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Pressure = normal force / area; pascal."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "7c3f616e19c34b8f37767cc96f4b4742a6607cdd179f3250451f2a9ed9039e94"
+  },
+  {
+    "id": "os-oscillation",
+    "title": "Simple Harmonic Motion",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "15.1",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/15-1-simple-harmonic-motion",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Period, frequency, amplitude, equilibrium; f = 1/T."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "27fe8a6fdc27f02cd24a4c62bef7921da4c44312a66628d1e0f164e329b90e49"
+  },
+  {
+    "id": "os-damping",
+    "title": "Damped Oscillations",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "15.5",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Damping removes mechanical energy; motion need not remain sinusoidal."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "94ba182ab5ac8ea1c636a5d6c1dbd0c3fa507fae7e09e333b96176d54f426e89"
+  },
+  {
+    "id": "os-waves",
+    "title": "Traveling Waves",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "16.1",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/16-1-traveling-waves",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Mechanical waves carry energy; longitudinal versus transverse; c=f\u03bb."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "47283d5bebb7e48d133b8f1647ced1b8b41c9d0929ae07789e0be6783cde5671"
+  },
+  {
+    "id": "os-superposition",
+    "title": "Interference of Waves",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "16.5",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/16-5-interference-of-waves",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Linear superposition and phase-dependent interference."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "3856bac73ca5de5e641832310eb404c89b1e8db38291d6db91b6c608682e6e34"
+  },
+  {
+    "id": "os-standing",
+    "title": "Standing Waves and Resonance",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "16.6",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/16-6-standing-waves-and-resonance",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Nodes, antinodes, opposite traveling waves; boundary-dependent modes."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "92476a1ae9483de2524f770b7a03edd1e3a3533c06aa4bf02e460bdac2b22c81"
+  },
+  {
+    "id": "os-sound",
+    "title": "Sound Waves",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "17.1",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/17-1-sound-waves",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Pressure variations and longitudinal particle displacement are distinct representations."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "bf884c4b7b0740317b75479722fcebccb44137a241d777d0ce554d2d448e4cc1"
+  },
+  {
+    "id": "os-speed",
+    "title": "Speed of Sound",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "17.2",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Sound speed depends on medium/state; approx. 343 m/s at 20\u00b0C in air."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "da29cda6f7f5903fe51af50edc732f687fb8d42a979fa865b56fb72c69380c4b"
+  },
+  {
+    "id": "os-levels",
+    "title": "Sound Intensity",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "17.3",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "I=P/A; sound intensity level 10 log10(I/I0); free-field inverse-square assumptions."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "f575e5340f47c9aab8a47460a3c396308378bd37c53b03e92b96209940cb77f0"
+  },
+  {
+    "id": "os-modes",
+    "title": "Normal Modes of a Standing Sound Wave",
+    "authors": "William Moebs, Samuel J. Ling, Jeff Sanny",
+    "publisher": "OpenStax / Rice University",
+    "work": "University Physics Volume 1",
+    "year": 2016,
+    "section": "17.4",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Acoustic interference and open/closed tube boundary conditions; distinguish pressure/displacement nodes."
+    ],
+    "limitations": "Calculus-based textbook used as a scientific reference, not assumed student prerequisites. Selected relevant passages reviewed; original course explanations and diagrams are newly authored.",
+    "sha256": "dce5b24999d15043d46ce3f236976997913af5436386fb25b5ab4c4d167154c0"
+  },
+  {
+    "id": "ies-learning",
+    "title": "Organizing Instruction and Study to Improve Student Learning",
+    "authors": "Harold Pashler et al.",
+    "publisher": "Institute of Education Sciences",
+    "year": 2007,
+    "section": "Recommendations 1\u20137",
+    "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Spacing, worked examples with problems, graphics plus words, retrieval and explanation prompts. Evidence grades differ; not a trial of this course or specifically adult musicians."
+    ],
+    "limitations": "Spacing, worked examples with problems, graphics plus words, retrieval and explanation prompts. Evidence grades differ; not a trial of this course or specifically adult musicians.",
+    "sha256": "475680c2dfd73b825338426aa68b635f212cc1c42cca915574565135f28a1cab"
+  },
+  {
+    "id": "psu-waves",
+    "title": "Wave Motion in a Mechanical Medium",
+    "authors": "Daniel A. Russell",
+    "publisher": "Pennsylvania State University",
+    "year": 2016,
+    "section": "Longitudinal and Transverse Wave Motion",
+    "url": "https://www.acs.psu.edu/drussell/Demos/waves/wavemotion.html",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Particles oscillate locally; distinguish propagation from particle displacement. Original animations are not copied."
+    ],
+    "limitations": "Particles oscillate locally; distinguish propagation from particle displacement. Original animations are not copied.",
+    "sha256": "e509e3e4e7f07fc80eb6099b6c11a993ffb05248ede68b30fb3123bb89cce5cc"
+  },
+  {
+    "id": "psu-reflection",
+    "title": "Reflections of Wave Pulses from Hard and Soft Boundaries",
+    "authors": "Daniel A. Russell",
+    "publisher": "Pennsylvania State University",
+    "year": 1997,
+    "section": "Reflection from hard/soft boundaries",
+    "url": "https://www.acs.psu.edu/drussell/Demos/reflect/reflect.html",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "String displacement reflection sign differs from acoustic pressure reflection. No images/animations copied."
+    ],
+    "limitations": "String displacement reflection sign differs from acoustic pressure reflection. No images/animations copied.",
+    "sha256": "3df562165d6cbf8712af1713cb0a7d9fd44746af7cab2ddf2f7766189d62084a"
+  },
+  {
+    "id": "rew-help",
+    "title": "RT60 Graph",
+    "authors": "John Mulcahy",
+    "publisher": "Room EQ Wizard",
+    "year": null,
+    "section": "RT60 Explanation and Calculation",
+    "url": "https://www.roomeqwizard.com/help/help_en-GB/html/graph_rt60.html",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Small-room low-frequency decay is modal; diffuse-field RT60 assumptions fail. Software documentation, not a peer-reviewed universal target."
+    ],
+    "limitations": "Small-room low-frequency decay is modal; diffuse-field RT60 assumptions fail. Software documentation, not a peer-reviewed universal target.",
+    "sha256": "b2b5462765257b8c98ed7f41a5bc786743b83a78b0262d813cf823a981feefa6"
+  },
+  {
+    "id": "rew-modes",
+    "title": "Room Simulator",
+    "authors": "John Mulcahy",
+    "publisher": "Room EQ Wizard",
+    "year": null,
+    "section": "Room Panel / Response Panel",
+    "url": "https://www.roomeqwizard.com/help/help_en-GB/html/modalsim.html",
+    "accessed": "2026-10-19",
+    "status": "passages-reviewed",
+    "verifiedClaims": [
+      "Rectangular-room boundary assumptions; source/listener position and axial/tangential/oblique classification."
+    ],
+    "limitations": "Our workshop is a much simpler rigid lossless eigenmode model. It does not implement REW or predict a measured frequency response."
+  },
+  {
+    "id": "asa-explore",
+    "title": "Explore Sound!",
+    "authors": "Acoustical Society of America",
+    "publisher": "ASA",
+    "year": null,
+    "section": "Education resource directory",
+    "url": "https://exploresound.org/",
+    "accessed": "2026-10-19",
+    "status": "directory-reviewed",
+    "verifiedClaims": [
+      "ASA educational resources exist."
+    ],
+    "limitations": "Landing page reviewed only. Not evidence for a particular scientific claim."
+  },
+  {
+    "id": "delany-bazley",
+    "title": "Acoustical properties of fibrous absorbent materials",
+    "authors": "Mary Delany, E.N. Bazley",
+    "publisher": "Applied Acoustics",
+    "year": 1970,
+    "section": "Bibliographic record only",
+    "url": "https://doi.org/10.1016/0003-682x(70)90031-9",
+    "accessed": "2026-10-19",
+    "status": "metadata-only",
+    "verifiedClaims": [
+      "Title, authors, year and DOI returned by OpenAlex."
+    ],
+    "limitations": "Full text not retrieved. Do not claim this paper verifies any implemented absorber coefficient/model. No material coefficients are invented.",
+    "discoveryUrl": "https://api.openalex.org/works/https://doi.org/10.1016/0003-682X(70)90031-9"
+  }
+]

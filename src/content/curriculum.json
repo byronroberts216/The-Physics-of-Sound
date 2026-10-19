@@ -1,0 +1,1248 @@
+{
+  "modules": [
+    {
+      "id": "language",
+      "title": "The language of physics",
+      "description": "Build your measuring tools before your mental models.",
+      "number": 1
+    },
+    {
+      "id": "sound",
+      "title": "From vibration to sound",
+      "description": "Follow a disturbance from a source to a microphone.",
+      "number": 2
+    },
+    {
+      "id": "behavior",
+      "title": "How waves behave",
+      "description": "Add waves, meet boundaries, and find resonance.",
+      "number": 3
+    },
+    {
+      "id": "hearing",
+      "title": "Hearing & sound systems",
+      "description": "Connect the field to the ear, instruments, and transducers.",
+      "number": 4
+    },
+    {
+      "id": "rooms",
+      "title": "A room is an instrument",
+      "description": "Reason about reflections, bass, and acoustic treatment.",
+      "number": 5
+    },
+    {
+      "id": "advanced",
+      "title": "Measure. Model. Improve.",
+      "description": "Optional depth and a practical evidence-led project.",
+      "number": 6
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "measurement",
+      "number": 1,
+      "module": "language",
+      "title": "A number needs a unit",
+      "objectives": [
+        "Separate a quantity, numerical value, and unit",
+        "express studio dimensions in metres."
+      ],
+      "prerequisites": [],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Separate a quantity, numerical value, and unit; express studio dimensions in metres.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Measure one room dimension twice and report method and resolution.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Measure one room dimension twice and report method and resolution.",
+      "sourceCandidates": [
+        "os-units"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "ratios",
+      "number": 2,
+      "module": "language",
+      "title": "Ratios, prefixes & powers of ten",
+      "objectives": [
+        "Convert milliseconds and kilohertz and explain what per means."
+      ],
+      "prerequisites": [
+        "measurement"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Convert milliseconds and kilohertz and explain what per means.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Convert three DAW delays into seconds without changing the duration.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Convert three DAW delays into seconds without changing the duration.",
+      "sourceCandidates": [
+        "os-units"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "algebra",
+      "number": 3,
+      "module": "language",
+      "title": "Equations are relationships",
+      "objectives": [
+        "Read a symbol, substitute values and rearrange using inverse operations."
+      ],
+      "prerequisites": [
+        "ratios"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Read a symbol, substitute values and rearrange using inverse operations.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Find distance from travel time, then check by dividing back.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Find distance from travel time, then check by dividing back.",
+      "sourceCandidates": [
+        "os-units"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "graphs",
+      "number": 4,
+      "module": "language",
+      "title": "Read a graph, tell a story",
+      "objectives": [
+        "Interpret axes, slope and zero",
+        "distinguish time traces from spatial snapshots."
+      ],
+      "prerequisites": [
+        "algebra"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Interpret axes, slope and zero; distinguish time traces from spatial snapshots.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Sketch a cone displacement trace and narrate each segment.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Sketch a cone displacement trace and narrate each segment.",
+      "sourceCandidates": [
+        "os-graphs"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "motion",
+      "number": 5,
+      "module": "language",
+      "title": "Position, speed & acceleration",
+      "objectives": [
+        "Distinguish distance, displacement, speed, velocity and acceleration."
+      ],
+      "prerequisites": [
+        "graphs"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish distance, displacement, speed, velocity and acceleration.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Explain how an object can change velocity while returning to its start.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Explain how an object can change velocity while returning to its start.",
+      "sourceCandidates": [
+        "os-graphs"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "force",
+      "number": 6,
+      "module": "language",
+      "title": "Forces, mass & pressure",
+      "objectives": [
+        "Relate pushes and inertia to motion and distribute normal force over area."
+      ],
+      "prerequisites": [
+        "motion"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Relate pushes and inertia to motion and distribute normal force over area.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare the pressure of equal force over two different areas.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare the pressure of equal force over two different areas.",
+      "sourceCandidates": [
+        "os-force"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "energy",
+      "number": 7,
+      "module": "language",
+      "title": "Energy moves; power is a rate",
+      "objectives": [
+        "Distinguish energy transfer, kinetic/potential stores, and power."
+      ],
+      "prerequisites": [
+        "force"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish energy transfer, kinetic/potential stores, and power.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare two equal-energy transfers over different durations.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare two equal-energy transfers over different durations.",
+      "sourceCandidates": [
+        "os-energy"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "vibration",
+      "number": 8,
+      "module": "language",
+      "title": "The anatomy of a vibration",
+      "objectives": [
+        "Define equilibrium, cycle, amplitude, period, frequency and damping."
+      ],
+      "prerequisites": [
+        "energy"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Define equilibrium, cycle, amplitude, period, frequency and damping.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Time repeated slow oscillations and calculate frequency.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Time repeated slow oscillations and calculate frequency.",
+      "sourceCandidates": [
+        "os-oscillation"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "mechanical-waves",
+      "number": 9,
+      "module": "sound",
+      "title": "A disturbance that travels",
+      "objectives": [
+        "Separate propagation, particle motion and energy transfer."
+      ],
+      "prerequisites": [
+        "vibration"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Separate propagation, particle motion and energy transfer.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Track a marked particle while a pattern crosses the medium.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Track a marked particle while a pattern crosses the medium.",
+      "sourceCandidates": [
+        "os-waves"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "pressure-waves",
+      "number": 10,
+      "module": "sound",
+      "title": "Air moves locally. Sound travels.",
+      "objectives": [
+        "Relate compression, rarefaction and pressure variation to longitudinal motion."
+      ],
+      "prerequisites": [
+        "mechanical-waves"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Relate compression, rarefaction and pressure variation to longitudinal motion.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Explain why a pressure graph is not a path followed by an air molecule.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Explain why a pressure graph is not a path followed by an air molecule.",
+      "sourceCandidates": [
+        "os-sound"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "wavelength",
+      "number": 11,
+      "module": "sound",
+      "title": "Frequency, wavelength & speed",
+      "objectives": [
+        "Use c=f\u03bb with units and distinguish period from wavelength."
+      ],
+      "prerequisites": [
+        "pressure-waves"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Use c=f\u03bb with units and distinguish period from wavelength.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Predict how wavelength changes between two frequencies in the same air.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Predict how wavelength changes between two frequencies in the same air.",
+      "sourceCandidates": [
+        "os-speed"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "phase",
+      "number": 12,
+      "module": "sound",
+      "title": "Phase: where in the cycle?",
+      "objectives": [
+        "Describe cycle alignment, degrees and delay at a given frequency."
+      ],
+      "prerequisites": [
+        "wavelength"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Describe cycle alignment, degrees and delay at a given frequency.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Calculate the cycle fraction represented by a short delay.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Calculate the cycle fraction represented by a short delay.",
+      "sourceCandidates": [
+        "os-superposition"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "intensity",
+      "number": 13,
+      "module": "sound",
+      "title": "Pressure, intensity & spreading",
+      "objectives": [
+        "Distinguish pressure from acoustic energy flux and qualify inverse-square spreading."
+      ],
+      "prerequisites": [
+        "phase"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish pressure from acoustic energy flux and qualify inverse-square spreading.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare equal-power radiation at two free-field distances.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare equal-power radiation at two free-field distances.",
+      "sourceCandidates": [
+        "os-levels"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "logarithms",
+      "number": 14,
+      "module": "sound",
+      "title": "Logarithms without mystery",
+      "objectives": [
+        "Understand powers, ratios and the inverse question behind a logarithm."
+      ],
+      "prerequisites": [
+        "intensity"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Understand powers, ratios and the inverse question behind a logarithm.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Build a ratio table before calculating any decibels.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Build a ratio table before calculating any decibels.",
+      "sourceCandidates": [
+        "os-levels"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "decibels",
+      "number": 15,
+      "module": "sound",
+      "title": "Decibels with a reference",
+      "objectives": [
+        "Distinguish intensity and pressure level, reference and weighting."
+      ],
+      "prerequisites": [
+        "logarithms"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish intensity and pressure level, reference and weighting.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Explain the different meanings of 3 dB, 6 dB and a pressure doubling.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Explain the different meanings of 3 dB, 6 dB and a pressure doubling.",
+      "sourceCandidates": [
+        "os-levels"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "sound-checkpoint",
+      "number": 16,
+      "module": "sound",
+      "title": "Checkpoint: follow the energy",
+      "objectives": [
+        "Connect units, waves, pressure and level in a reasoned explanation."
+      ],
+      "prerequisites": [
+        "decibels"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Connect units, waves, pressure and level in a reasoned explanation.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Write a source-to-microphone explanation with units and assumptions.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Write a source-to-microphone explanation with units and assumptions.",
+      "sourceCandidates": [
+        "os-sound"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "interference",
+      "number": 17,
+      "module": "behavior",
+      "title": "Two waves, one pressure",
+      "objectives": [
+        "Add signed disturbances and distinguish coherent from independent sources."
+      ],
+      "prerequisites": [
+        "sound-checkpoint"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Add signed disturbances and distinguish coherent from independent sources.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Predict reinforcement/cancellation at a location before adjusting phase.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Predict reinforcement/cancellation at a location before adjusting phase.",
+      "sourceCandidates": [
+        "os-superposition"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "reflection",
+      "number": 18,
+      "module": "behavior",
+      "title": "What a boundary reflects",
+      "objectives": [
+        "Distinguish pressure from displacement boundary behavior."
+      ],
+      "prerequisites": [
+        "interference"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish pressure from displacement boundary behavior.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare a rigid acoustic boundary to a clamped string.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare a rigid acoustic boundary to a clamped string.",
+      "sourceCandidates": [
+        "psu-reflection"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "transmission",
+      "number": 19,
+      "module": "behavior",
+      "title": "Across a boundary",
+      "objectives": [
+        "Distinguish reflected, absorbed and transmitted energy."
+      ],
+      "prerequisites": [
+        "reflection"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish reflected, absorbed and transmitted energy.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Create an energy budget that sums to the incident energy.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Create an energy budget that sums to the incident energy.",
+      "sourceCandidates": [
+        "os-waves"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "diffraction",
+      "number": 20,
+      "module": "behavior",
+      "title": "Around edges and openings",
+      "objectives": [
+        "Relate wavelength and obstacle scale without ray-only assumptions."
+      ],
+      "prerequisites": [
+        "transmission"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Relate wavelength and obstacle scale without ray-only assumptions.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare bass and treble around a door using a qualified hypothesis.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare bass and treble around a door using a qualified hypothesis.",
+      "sourceCandidates": [
+        "os-waves"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "resonance",
+      "number": 21,
+      "module": "behavior",
+      "title": "Driving and damping",
+      "objectives": [
+        "Explain energy delivery, losses and finite resonance peaks."
+      ],
+      "prerequisites": [
+        "diffraction"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Explain energy delivery, losses and finite resonance peaks.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Predict changes when damping increases at fixed drive.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Predict changes when damping increases at fixed drive.",
+      "sourceCandidates": [
+        "os-damping"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "standing-waves",
+      "number": 22,
+      "module": "behavior",
+      "title": "Traveling waves make a standing pattern",
+      "objectives": [
+        "Identify pressure nodes/antinodes and boundary constraints."
+      ],
+      "prerequisites": [
+        "resonance"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Identify pressure nodes/antinodes and boundary constraints.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Map a simple rigid-axis pressure mode including the boundaries.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Map a simple rigid-axis pressure mode including the boundaries.",
+      "sourceCandidates": [
+        "os-standing"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "harmonics",
+      "number": 23,
+      "module": "behavior",
+      "title": "Harmonics and overtones",
+      "objectives": [
+        "Distinguish mode order, fundamental, harmonic and inharmonic modes."
+      ],
+      "prerequisites": [
+        "standing-waves"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish mode order, fundamental, harmonic and inharmonic modes.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare integer harmonic frequencies to a rectangular room mode list.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare integer harmonic frequencies to a rectangular room mode list.",
+      "sourceCandidates": [
+        "os-modes"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "response",
+      "number": 24,
+      "module": "behavior",
+      "title": "A system has a frequency response",
+      "objectives": [
+        "Separate input spectrum from system response and output."
+      ],
+      "prerequisites": [
+        "harmonics"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Separate input spectrum from system response and output.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Describe a fair comparison using the same excitation.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Describe a fair comparison using the same excitation.",
+      "sourceCandidates": [
+        "os-superposition"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "hearing",
+      "number": 25,
+      "module": "hearing",
+      "title": "From pressure to perception",
+      "objectives": [
+        "Trace ear transduction and distinguish sensation from physical stimulus."
+      ],
+      "prerequisites": [
+        "response"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Trace ear transduction and distinguish sensation from physical stimulus.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Explain why physical equality does not imply perceived equality.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Explain why physical equality does not imply perceived equality.",
+      "sourceCandidates": [
+        "os-sound"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "pitch-loudness",
+      "number": 26,
+      "module": "hearing",
+      "title": "Pitch, loudness & context",
+      "objectives": [
+        "Separate frequency from pitch and level from loudness."
+      ],
+      "prerequisites": [
+        "hearing"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Separate frequency from pitch and level from loudness.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Design a level-matched listening comparison without claiming equal loudness.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Design a level-matched listening comparison without claiming equal loudness.",
+      "sourceCandidates": [
+        "os-levels"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "instruments",
+      "number": 27,
+      "module": "hearing",
+      "title": "Why instruments sound different",
+      "objectives": [
+        "Connect excitation, resonances, spectra and time envelopes."
+      ],
+      "prerequisites": [
+        "pitch-loudness"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Connect excitation, resonances, spectra and time envelopes.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare two sounds with the same fundamental using more than pitch.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare two sounds with the same fundamental using more than pitch.",
+      "sourceCandidates": [
+        "os-modes"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "speakers",
+      "number": 28,
+      "module": "hearing",
+      "title": "The loudspeaker as a transducer",
+      "objectives": [
+        "Relate electrical drive, cone motion, radiation and directivity."
+      ],
+      "prerequisites": [
+        "instruments"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Relate electrical drive, cone motion, radiation and directivity.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Identify which claims need a speaker measurement rather than a room model.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Identify which claims need a speaker measurement rather than a room model.",
+      "sourceCandidates": [
+        "os-sound"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "microphones",
+      "number": 29,
+      "module": "hearing",
+      "title": "Microphones sample a field",
+      "objectives": [
+        "Separate polar pattern, sensitivity and placement effects."
+      ],
+      "prerequisites": [
+        "speakers"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Separate polar pattern, sensitivity and placement effects.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Plan a repeatable position comparison without confusing gain with field changes.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Plan a repeatable position comparison without confusing gain with field changes.",
+      "sourceCandidates": [
+        "os-sound"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "measurement-chain",
+      "number": 30,
+      "module": "hearing",
+      "title": "Build a trustworthy measurement chain",
+      "objectives": [
+        "Identify calibration, noise floor, level, timing and repeatability."
+      ],
+      "prerequisites": [
+        "microphones"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Identify calibration, noise floor, level, timing and repeatability.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Document hardware, settings and location before measuring.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Document hardware, settings and location before measuring.",
+      "sourceCandidates": [
+        "rew-help"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "measurement-reading",
+      "number": 31,
+      "module": "hearing",
+      "title": "Read response and decay together",
+      "objectives": [
+        "Distinguish magnitude, phase, impulse and decay displays."
+      ],
+      "prerequisites": [
+        "measurement-chain"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish magnitude, phase, impulse and decay displays.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Explain why a smoothed magnitude graph alone cannot reveal decay.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Explain why a smoothed magnitude graph alone cannot reveal decay.",
+      "sourceCandidates": [
+        "rew-help"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "hearing-checkpoint",
+      "number": 32,
+      "module": "hearing",
+      "title": "Checkpoint: evidence before impressions",
+      "objectives": [
+        "Compare listening observations with a controlled test."
+      ],
+      "prerequisites": [
+        "measurement-reading"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Compare listening observations with a controlled test.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Write a falsifiable hypothesis and a safe measurement protocol.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Write a falsifiable hypothesis and a safe measurement protocol.",
+      "sourceCandidates": [
+        "ies-learning"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "room-modes",
+      "number": 33,
+      "module": "rooms",
+      "title": "The room-mode map",
+      "objectives": [
+        "Classify axial, tangential and oblique modes of a rectangular room."
+      ],
+      "prerequisites": [
+        "hearing-checkpoint"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Classify axial, tangential and oblique modes of a rectangular room.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Calculate three axial fundamentals with the room dimensions in metres.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Calculate three axial fundamentals with the room dimensions in metres.",
+      "sourceCandidates": [
+        "rew-modes"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "placement",
+      "number": 34,
+      "module": "rooms",
+      "title": "Source and listener position",
+      "objectives": [
+        "Relate modal pressure patterns to source/listener coupling."
+      ],
+      "prerequisites": [
+        "room-modes"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Relate modal pressure patterns to source/listener coupling.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare one ideal mode at two source and receiver locations.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare one ideal mode at two source and receiver locations.",
+      "sourceCandidates": [
+        "rew-modes"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "early-reflections",
+      "number": 35,
+      "module": "rooms",
+      "title": "Early reflections and path length",
+      "objectives": [
+        "Use image-source geometry and relative arrival times."
+      ],
+      "prerequisites": [
+        "placement"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Use image-source geometry and relative arrival times.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Construct the first sidewall path and compare its distance to direct sound.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Construct the first sidewall path and compare its distance to direct sound.",
+      "sourceCandidates": [
+        "rew-modes"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "reverberation",
+      "number": 36,
+      "module": "rooms",
+      "title": "Decay, reverberation & small rooms",
+      "objectives": [
+        "Separate diffuse-field decay estimates from individual modal decay."
+      ],
+      "prerequisites": [
+        "early-reflections"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Separate diffuse-field decay estimates from individual modal decay.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Explain why a small-room bass RT60 target may mislead.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Explain why a small-room bass RT60 target may mislead.",
+      "sourceCandidates": [
+        "rew-help"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "porous-treatment",
+      "number": 37,
+      "module": "rooms",
+      "title": "What porous absorption does",
+      "objectives": [
+        "Explain viscous/thermal losses and frequency-dependent performance."
+      ],
+      "prerequisites": [
+        "reverberation"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Explain viscous/thermal losses and frequency-dependent performance.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare test data with mounting, thickness and frequency recorded.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare test data with mounting, thickness and frequency recorded.",
+      "sourceCandidates": [
+        "delany-bazley"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "thickness-gap",
+      "number": 38,
+      "module": "rooms",
+      "title": "Panel thickness and air gaps",
+      "objectives": [
+        "Explain rigid-wall particle-velocity patterns and qualify depth heuristics."
+      ],
+      "prerequisites": [
+        "porous-treatment"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Explain rigid-wall particle-velocity patterns and qualify depth heuristics.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Calculate a quarter wavelength and explain what it does not predict.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Calculate a quarter wavelength and explain what it does not predict.",
+      "sourceCandidates": [
+        "os-modes"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "bass-diffusion",
+      "number": 39,
+      "module": "rooms",
+      "title": "Bass traps, tuned absorbers & diffusion",
+      "objectives": [
+        "Distinguish broadband loss, tuned resonance and scattering."
+      ],
+      "prerequisites": [
+        "thickness-gap"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish broadband loss, tuned resonance and scattering.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Choose what measurements would justify a proposed treatment.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Choose what measurements would justify a proposed treatment.",
+      "sourceCandidates": [
+        "rew-help"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "isolation",
+      "number": 40,
+      "module": "rooms",
+      "title": "Treatment is not sound isolation",
+      "objectives": [
+        "Separate energy loss inside the room from transmission into another."
+      ],
+      "prerequisites": [
+        "bass-diffusion"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Separate energy loss inside the room from transmission into another.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Explain why a treated room can still disturb a neighbour.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Explain why a treated room can still disturb a neighbour.",
+      "sourceCandidates": [
+        "os-waves"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "fourier",
+      "number": 41,
+      "module": "advanced",
+      "title": "Optional: a sound as a sum",
+      "objectives": [
+        "Interpret a Fourier spectrum and finite-window limits."
+      ],
+      "prerequisites": [
+        "isolation"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Interpret a Fourier spectrum and finite-window limits.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare a harmonic recipe in time and frequency representations.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare a harmonic recipe in time and frequency representations.",
+      "sourceCandidates": [
+        "os-superposition"
+      ],
+      "status": "planned",
+      "optional": true
+    },
+    {
+      "slug": "impulse",
+      "number": 42,
+      "module": "advanced",
+      "title": "Optional: the impulse response",
+      "objectives": [
+        "Connect a linear time-invariant system, convolution and reflections."
+      ],
+      "prerequisites": [
+        "fourier"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Connect a linear time-invariant system, convolution and reflections.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Predict the output of a dry signal plus one delayed copy.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Predict the output of a dry signal plus one delayed copy.",
+      "sourceCandidates": [
+        "rew-help"
+      ],
+      "status": "planned",
+      "optional": true
+    },
+    {
+      "slug": "impedance",
+      "number": 43,
+      "module": "advanced",
+      "title": "Optional: acoustic impedance",
+      "objectives": [
+        "Distinguish pressure/particle-velocity ratio from electrical resistance."
+      ],
+      "prerequisites": [
+        "impulse"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish pressure/particle-velocity ratio from electrical resistance.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "State assumptions before relating intensity to pressure squared.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "State assumptions before relating intensity to pressure squared.",
+      "sourceCandidates": [
+        "psu-reflection"
+      ],
+      "status": "planned",
+      "optional": true
+    },
+    {
+      "slug": "math-track",
+      "number": 44,
+      "module": "advanced",
+      "title": "Optional mathematics bridge",
+      "objectives": [
+        "Introduce sine, radians, derivatives and complex phase after concrete models."
+      ],
+      "prerequisites": [
+        "impedance"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Introduce sine, radians, derivatives and complex phase after concrete models.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Derive a rigid-axis mode from the boundary condition.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Derive a rigid-axis mode from the boundary condition.",
+      "sourceCandidates": [
+        "os-standing"
+      ],
+      "status": "planned",
+      "optional": true
+    },
+    {
+      "slug": "rew-project",
+      "number": 45,
+      "module": "advanced",
+      "title": "Measure your room with REW",
+      "objectives": [
+        "Plan safe, repeatable sweep measurements and compare location/decay."
+      ],
+      "prerequisites": [
+        "measurement-chain",
+        "measurement-reading",
+        "room-modes",
+        "isolation"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Plan safe, repeatable sweep measurements and compare location/decay.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Save baseline files, positions, calibration and repeatability evidence.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Save baseline files, positions, calibration and repeatability evidence.",
+      "sourceCandidates": [
+        "rew-help"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "treatment-project",
+      "number": 46,
+      "module": "advanced",
+      "title": "Design a treatment experiment",
+      "objectives": [
+        "Choose a measurable hypothesis and change one factor at a time."
+      ],
+      "prerequisites": [
+        "rew-project",
+        "porous-treatment",
+        "thickness-gap",
+        "bass-diffusion"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Choose a measurable hypothesis and change one factor at a time.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Compare matched before/after measurements and document uncertainty.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Compare matched before/after measurements and document uncertainty.",
+      "sourceCandidates": [
+        "rew-help"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "uncertainty-project",
+      "number": 47,
+      "module": "advanced",
+      "title": "When the model disagrees",
+      "objectives": [
+        "Distinguish bad input, numerical error, model limits and real variation."
+      ],
+      "prerequisites": [
+        "treatment-project"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Distinguish bad input, numerical error, model limits and real variation.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "List confounding variables before rejecting a prediction.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "List confounding variables before rejecting a prediction.",
+      "sourceCandidates": [
+        "ies-learning"
+      ],
+      "status": "planned",
+      "optional": false
+    },
+    {
+      "slug": "capstone",
+      "number": 48,
+      "module": "advanced",
+      "title": "Your room, explained",
+      "objectives": [
+        "Synthesize source, propagation, boundaries, hearing and evidence."
+      ],
+      "prerequisites": [
+        "uncertainty-project"
+      ],
+      "outline": [
+        "Begin with a concrete music/room observation and a prediction.",
+        "Synthesize source, propagation, boundaries, hearing and evidence.",
+        "Work a numerical or causal example with every quantity and unit defined.",
+        "Produce a treatment proposal with reasoning, limits and measurement plan.",
+        "Retrieve the explanation without looking; identify limits and transfer it to another case."
+      ],
+      "exercise": "Produce a treatment proposal with reasoning, limits and measurement plan.",
+      "sourceCandidates": [
+        "rew-help"
+      ],
+      "status": "planned",
+      "optional": false
+    }
+  ]
+}

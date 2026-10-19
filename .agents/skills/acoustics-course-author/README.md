@@ -1,3 +1,3 @@
-# Reserved: acoustics-course-author
+# Acoustics course author
 
-Future custom authoring skill location. Deliberately no SKILL.md yet: no course-authoring instructions or curriculum are being introduced during environment setup. Create and review the skill in a later explicitly authorized task.
+Activated by the course build mission. Read SKILL.md for authoring, source verification and publication gates.

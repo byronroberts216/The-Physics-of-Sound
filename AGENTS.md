@@ -1,7 +1,7 @@
 # The Physics of Sound
 
 ## Purpose and scope
-Build a comprehensive, interactive acoustics education website, from absolute beginner to advanced understanding. Explain intuition before formalism, make prerequisites explicit, and connect equations to observable phenomena. This foundation contains no curriculum; authoring and UI implementation require a subsequent task.
+Build a comprehensive, interactive acoustics education website, from absolute beginner to advanced understanding. Explain intuition before formalism, make prerequisites explicit, and connect equations to observable phenomena. The user has now authorized full course research, authoring, implementation and validation. Keep milestone and content status honest in docs/progress.md.
 
 ## Architecture and conventions
 Use Node 24, pnpm 10 (exact packageManager pin), Next.js App Router, React, and strict TypeScript. Use the existing isolated checkout; do not create a Git worktree unless explicitly requested. Routes and layouts live in `src/app`; add reusable UI in `src/components`, pure numerical models in `src/lib/physics`, and browser-only audio/visualization adapters in `src/lib` when needed. Do not create empty abstractions in advance.
@@ -12,7 +12,7 @@ Before relevant UI design, implementation, interaction, animation, or design rev
 Use system typography, deliberate hierarchy, readable spacing, minimal controls, polished consistent navigation, natural interruptible motion, and responsive layouts. Use translucency/depth only when they clarify hierarchy and maintain contrast. Respect reduced motion, reduced transparency, and increased contrast. Do not distort scientific time, amplitude, wave propagation, or numerical results to imitate UI springs.
 
 ## Scientific integrity
-Verify scientific claims against reputable university textbooks/materials and primary sources. Record URL/DOI, access date, relevant section, assumptions, units, and limitations. Independently verify metadata from discovery tools; a search result is not evidence. Label simplified models, domains of validity, and time/space scaling. Distinguish particle motion, energy transport, pressure, displacement, and visual encoding. Validate equations dimensionally and simulations against analytic cases, limiting behavior, conservation laws where applicable, and numerical convergence. Never invent citations. No curriculum research is authorized by this setup task.
+Verify scientific claims against reputable university textbooks/materials and primary sources. Record URL/DOI, access date, relevant section, assumptions, units, and limitations. Independently verify metadata from discovery tools; a search result is not evidence. Label simplified models, domains of validity, and time/space scaling. Distinguish particle motion, energy transport, pressure, displacement, and visual encoding. Validate equations dimensionally and simulations against analytic cases, limiting behavior, conservation laws where applicable, and numerical convergence. Never invent citations. Curriculum research is authorized. Apply .agents/skills/acoustics-course-author/SKILL.md for lesson and laboratory work.
 
 ## Accessibility and performance
 Target WCAG 2.2 AA: semantic structure, labels, visible focus, keyboard alternatives to gestures, adequate contrast, responsive reflow and text zoom. Graphs need textual summaries and accessible data; equations need accessible math output. Audio is opt-in, starts after a user gesture, has visible stop/volume controls and safe initial levels, and never autoplays. Reduced motion must preserve learning through static/stepped alternatives. Avoid flashing and vestibular effects. Stop audio/animation and release resources on unmount; pause expensive work offscreen. Keep math deterministic and separate from rendering; use workers only when profiling justifies them.
@@ -21,7 +21,7 @@ Target WCAG 2.2 AA: semantic structure, labels, visible focus, keyboard alternat
 Run `pnpm lint`, `pnpm typecheck`, `pnpm check:skills`, `pnpm build`, and `pnpm test`. Browser tests cover the initial placeholder on desktop/mobile; they are not full accessibility or scientific validation. Use `pnpm test:e2e:production` for a production-server check. Add meaningful numerical tests and keyboard/audio/reduced-motion interaction tests when those features exist. Document commands, assumptions, source provenance, dependency choices, and unresolved checks. Never describe a skipped check as passing. Do not commit generated builds, secrets, browser binaries, or package stores.
 
 ## Local skills
-Apple Design is committed under `.agents/skills/apple-design` with its MIT license and upstream provenance in `docs/skills.md`; `skills-lock.json` records the install. Keep all skill resources in Git so future checkouts retain them. `.agents/skills/acoustics-course-author` is reserved only; do not activate it or author lessons until requested.
+Apple Design is committed under `.agents/skills/apple-design` with its MIT license and upstream provenance in `docs/skills.md`; `skills-lock.json` records the install. Keep all skill resources in Git so future checkouts retain them. `.agents/skills/acoustics-course-author/SKILL.md` now enforces the course authoring and verification workflow; read it before curriculum work.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
