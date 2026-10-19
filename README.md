@@ -1,10 +1,20 @@
 # The Physics of Sound
 
-Development foundation for a future interactive acoustics education website. Only a minimal readiness placeholder is implemented; no lessons, simulations, research pipeline, accounts, or backend services exist yet.
+A self-paced acoustics academy for an experienced musician starting with no formal physics background. **An implemented, usable course increment—not the complete academy yet.** Sixteen original starter lessons cover units through decibels. The remaining 32 lessons have explicit prerequisite briefs and are marked planned.
 
-## Requirements and commands
+## Learn and explore
 
-Use Node **24.19.0** (see `.node-version`) and **pnpm 10.34.7**. Install pnpm using Corepack if available (`corepack enable && corepack prepare pnpm@10.34.7 --activate`) or `npm install -g pnpm@10.34.7`. The cloud setup uses a workspace-local tool installation rather than global writes.
+- `/`: personal dashboard and the six-stage path.
+- `/course`: available lessons and honest planned-content briefs.
+- `/labs`: waves/longitudinal parcels, coherent interference, decibel calculations, a three-harmonic recipe and opt-in pure tone.
+- `/workshop`: ideal rectangular modes, single-mode source/listener coupling, one-wall reflection geometry, qualified depth/wavelength comparison and measurement guidance.
+- `/glossary`, `/library`, `/references`: searchable terms, local notes/bookmarks/review/export/import, and a traceable source registry.
+
+Progress remains in this browser’s local storage, without an account or automatic cross-device sync. Export backups before clearing site data. No paid services or public deployment were introduced.
+
+## Develop and validate
+
+Use Node **24.19.0** and pnpm **10.34.7** (pins in `.node-version` and `package.json`). Build upon the existing checkout. Do not create a worktree unless requested.
 
 ```sh
 pnpm install --frozen-lockfile
@@ -12,27 +22,22 @@ pnpm exec playwright install chromium
 pnpm check:skills
 pnpm lint
 pnpm typecheck
+pnpm test:science
 pnpm build
 pnpm test
 pnpm dev
 ```
 
-`pnpm test` starts and stops its own development server and runs Chromium desktop/mobile checks. Stop any manually started server on port 3000 first. To use a preinstalled Chromium instead of downloading a browser, set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` to its executable (Cloud: `/usr/bin/chromium`). This uses the system browser version rather than Playwright’s pinned download. On Linux, install browser OS libraries with `pnpm exec playwright install-deps chromium` if missing (system package installation may require permission). `pnpm test:e2e:production` builds and tests `pnpm start`. `pnpm start` requires a completed build. No API keys are needed for these commands. Dependencies are locked in `pnpm-lock.yaml`.
+Tests start their own server; stop a manually started process on port 3000 first. `pnpm test:e2e:production` builds and runs the same browser checks against `pnpm start`. Linux browser libraries may require `pnpm exec playwright install-deps chromium` with system package permissions. In Cloud, use installed Chromium with `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium`; this differs from Playwright’s pinned downloaded browser. No keys are required for development or tests.
 
-## Structure
+Cloud: `bash scripts/cloud-install.sh` reuses the frozen lockfile and workspace-local tools/cache. Initialize `PATH=/workspace/.tools/node_modules/.bin:$PATH` in subsequent shells. Saved Cloud start instructions remain useful for tool activation; the old setup placeholder wording is superseded by this academy UI. Live server processes do not survive environment snapshots.
 
-- `src/app`: App Router shell and minimal environment placeholder.
-- `tests/e2e`: browser smoke checks; production configuration shares the tests.
-- `.agents/skills`: committed Codex-local skills and reserved future authoring location.
-- `scripts`: skill discovery check and reusable cloud setup.
-- `docs`: architecture, dependencies, research integration requirements, and skill provenance.
+## Architecture and standards
 
-Read [AGENTS.md](AGENTS.md) before development and [docs/skills.md](docs/skills.md) before design work. See [docs/dependencies.md](docs/dependencies.md) and [docs/research-infrastructure.md](docs/research-infrastructure.md) for deferred tools.
+Next.js App Router and Server Components render curriculum/lesson/reference routes statically. Small Client Components own controls, Web Audio and local learning state. `src/content` holds structured original content and reference metadata; `src/lib/physics` contains pure SI-unit models. Numerical/content/state tests use Node’s built-in runner; Playwright covers browser behavior and bounded axe checks. KaTeX renders server-side math with MathML and trusted commands disabled.
 
-## Vercel
+Read [AGENTS.md](AGENTS.md), the installed [Apple Design skill](.agents/skills/apple-design/SKILL.md), and [acoustics-course-author](.agents/skills/acoustics-course-author/SKILL.md). Begin continuation with [docs/progress.md](docs/progress.md). Model assumptions are in [docs/science-models.md](docs/science-models.md); research method and limitations are in [docs/research-method.md](docs/research-method.md).
 
-Import this GitHub repository as a Next.js project. Select Node 24.x; use `pnpm install --frozen-lockfile` and `pnpm build`, keeping the default Next.js output setting. pnpm is pinned by `packageManager`. No custom server, Vercel-specific package, paid subscription, or deploy-time credentials are required by the foundation. Vercel Hobby may be suitable subject to its current usage terms. Deployment has not been performed or verified.
+## Vercel compatibility
 
-## Cloud environment
-
-Run `bash scripts/cloud-install.sh` to reproduce setup. Use the existing checkout; do not create a worktree. The cloud script retains dependencies and browser downloads under `/workspace`; live processes must restart in each session. See environment settings for saved install/start instructions. Optional research services are not prerequisites for development.
+Standard Next.js project, Node 24.x, pnpm frozen install and `pnpm build`; keep default Next.js output settings. No custom server or Vercel package is needed. Deployment has not been performed; public deployment requires approval. Hosting terms/quotas must be checked before use.

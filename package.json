@@ -16,20 +16,25 @@
     "test": "playwright test",
     "test:e2e": "playwright test",
     "test:e2e:production": "pnpm build && playwright test --config=playwright.production.config.ts",
-    "check:skills": "node scripts/check-skills.mjs"
+    "check:skills": "node scripts/check-skills.mjs",
+    "test:science": "node --experimental-strip-types --test tests/science/*.test.ts"
   },
   "dependencies": {
+    "katex": "^0.19.0",
     "next": "16.4.2",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "1.64.1",
+    "@types/katex": "^0.16.8",
     "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.4.2",
     "typescript": "5.9.3"
-  }
+  },
+  "type": "module"
 }

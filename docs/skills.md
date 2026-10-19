@@ -13,3 +13,7 @@ The guidance is based on Apple's interface design and motion principles. Motion/
 Codex discovers repository-local skills through `.agents/skills/<name>/SKILL.md`. For a relevant task, read that file and apply it; example: `Use $apple-design to review typography and reduced-motion behavior.` `pnpm check:skills` verifies the path, metadata, readability and AGENTS.md reference. This setup read and applied the typography/clarity guidance to the minimal foundation shell. Hot-loading a new native skill/tool into an already-running chat cannot be guaranteed; start a new task to verify the native skill picker after publication. The committed files, license and lock record persist through Git checkouts; prepared cloud snapshots also retain them. A fresh-task restoration has not yet been tested.
 
 The future `acoustics-course-author` directory is a documented placeholder with no SKILL.md; it is intentionally not a discoverable authoring skill yet. Do not globally install skills or copy credentials into skill files.
+
+## Course development update
+
+The user has now authorized course creation. `acoustics-course-author/SKILL.md` is active, committed locally, and checked by `pnpm check:skills`. Apple Design was read and applied to system typography, spatial hierarchy, persistent navigation, immediate control feedback, light/dark modes, contrast and reduced-motion/transparency handling. Physics plots use scientific equations rather than interface springs. The old reserved-authoring description above documents the setup phase, not current status.

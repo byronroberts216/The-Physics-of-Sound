@@ -13,3 +13,9 @@ Installed runtime: Next.js 16.4.2, React/React DOM 19.3.1. Installed development
 | Playwright (`@playwright/test`) | Browser smoke, interaction and regression tests | Installed now. Chromium desktop/mobile smoke tests; Firefox/WebKit and deeper accessibility tests can be added when features need them. |
 
 Evaluate current versions, licenses, bundle cost, SSR behavior and official documentation before installation. Motion is optional for future gesture-driven UI; Apple Design does not require adding it now. No extra science package is useful to a readiness placeholder.
+
+## Course implementation update
+
+KaTeX 0.19.0 is now installed because lessons render explained equations server-side, with HTML plus MathML and `trust: false`. Its CSS/fonts are served locally. `@axe-core/playwright` is a development-only dependency for bounded automated accessibility checks. Numerical/state/content tests use Node's built-in runner; no extra test framework is needed.
+
+SVG plus pure TypeScript suits the current modest plots; D3 and p5 would add weight without a demonstrated benefit. Native Web Audio supplies one controlled oscillator; Tone is deferred until scheduling/complex synthesis justifies it. No microphone spectrum analyzer, WaveSurfer recording view or FSRS algorithm is implemented. The simple review schedule is explicitly described and tested rather than presented as FSRS.

@@ -20,6 +20,7 @@ jobs:
       - run: pnpm check:skills
       - run: pnpm lint
       - run: pnpm typecheck
+      - run: pnpm test:science
       - run: pnpm build
       - run: pnpm test
         env:

@@ -1,0 +1,1937 @@
+[
+  {
+    "slug": "measurement",
+    "intro": "You ask someone to move a microphone “20 closer.” Twenty what? Millimetres and inches describe very different moves. A number alone cannot tell another person what you did. Physics begins by making observations shareable, so that a claim can be checked instead of merely believed. In this lesson your measuring tape is more important than a calculator.\n\nBefore reading on, predict this: can two people report different numbers for the same room length and both be right? Keep your answer. By the end you should be able to explain exactly when that is possible and when it signals a disagreement.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Quantity",
+        "definition": "A property we can measure, such as length or duration."
+      },
+      {
+        "term": "Unit",
+        "definition": "An agreed size used as a reference, such as one metre."
+      },
+      {
+        "term": "Measurement",
+        "definition": "A comparison of a quantity with a unit using a stated method."
+      },
+      {
+        "term": "Resolution",
+        "definition": "The smallest change an instrument’s display or markings distinguish."
+      },
+      {
+        "term": "Uncertainty",
+        "definition": "A description of the remaining doubt in a measurement, not permission to guess carelessly."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Separate the object from the number",
+        "paragraphs": [
+          "A cable has a length whether you describe it in metres, centimetres or feet. The quantity is length. The numerical value is how many units fit into that length. The unit is the reference size you counted. A two-metre cable is also a two-hundred-centimetre cable. The cable did not grow when the number changed: the unit became smaller.",
+          "We write 2 m with a space between the value and unit. The symbol m means metre, s means second, and kg means kilogram. These are units of length, time and mass. You do not need to memorize the entire international system today. Recognize these three and always write the unit when recording a physical quantity. Mass describes inertia and is not the same quantity as a force or an audio level."
+        ]
+      },
+      {
+        "title": "Choose a repeatable procedure",
+        "paragraphs": [
+          "To measure the width of a room, first decide what “width” means. Is it between finished wall surfaces, between skirting boards, or between two absorbers? Place the tape consistently, keep it straight, and record the endpoints. A diagonal line measures a different distance from a perpendicular wall-to-wall line. Extra decimal places cannot repair an undefined procedure.",
+          "Repeat the measurement. If you read 3.42 m and then 3.43 m, you have learned something about repeatability. If the tape has centimetre marks, reporting 3.425731 m suggests detail that the method has not established. Do not invent a statistical uncertainty from only two readings. Record both readings and the tape resolution; a later measurement lesson will build a fuller uncertainty budget."
+        ]
+      },
+      {
+        "title": "Units can be combined",
+        "paragraphs": [
+          "A floor has area, meaning the amount of surface it covers. For a rectangle, multiply length by width. Metres multiplied by metres give square metres, written m². A room’s volume adds a third length: metres times metres times metres give cubic metres, m³. The little 2 or 3 counts repeated multiplication of a unit, not a different kind of metre.",
+          "This distinction will matter for sound. Pressure will involve force over area; intensity will involve power over area. Both use area but describe different quantities. For now, practice asking “What property is this number describing?” before interpreting any numerical display in a DAW or a measurement program."
+        ]
+      }
+    ],
+    "equation": "A = L\\times W",
+    "symbols": "A is rectangular floor area in square metres (m²). L is length in metres (m). W is width in metres (m). The × symbol means multiply. This assumes a rectangular floor.",
+    "worked": {
+      "problem": "A rectangular recording area is 4.0 m long and 3.0 m wide. Find its floor area.",
+      "steps": [
+        "Identify the two measured lengths and check that both are in metres.",
+        "Multiply the values: 4.0 × 3.0 = 12.",
+        "Multiply the units: m × m = m²."
+      ],
+      "answer": "The floor area is 12 m², not 12 m. This calculation does not describe the room’s volume."
+    },
+    "misconception": {
+      "claim": "More digits always mean a better measurement.",
+      "correction": "Digits must be supported by the instrument and method. A precise-looking number can still describe the wrong endpoints or a biased procedure."
+    },
+    "questions": [
+      {
+        "prompt": "The same cable is 2 m or 200 cm. What changed?",
+        "options": [
+          "The cable’s physical length",
+          "The numerical value and reference unit",
+          "The type of physical quantity"
+        ],
+        "correct": 1,
+        "feedback": [
+          "The cable is unchanged; the measuring unit determines the number.",
+          "Correct. A smaller reference unit needs a larger count for the same quantity.",
+          "Both measurements are still lengths."
+        ]
+      },
+      {
+        "prompt": "Which record is most reproducible?",
+        "options": [
+          "Room width: 3.4",
+          "Finished wall to finished wall, tape perpendicular, 3.42 m; repeated 3.43 m",
+          "Room: exactly 3.425731"
+        ],
+        "correct": 1,
+        "feedback": [
+          "A unit and method are missing.",
+          "Correct. Method, units and repeated readings let someone check the claim.",
+          "Extra digits do not supply a unit or establish accuracy."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Measure one room dimension twice. Record endpoints, unit, instrument markings and both readings.",
+        "answer": "There is no universal numerical answer. Your record should allow another person to repeat the same measurement, and should not hide disagreement between readings."
+      },
+      {
+        "prompt": "A floor is 5 m by 2 m. Is its area 10 m or 10 m²? Explain the unit without quoting a rule.",
+        "answer": "It is 10 m²: ten one-metre-by-one-metre squares cover the rectangle. Two lengths were multiplied."
+      },
+      {
+        "prompt": "Explain why 300 cm and 3 m can agree, while 3 m and 3 s cannot describe the same quantity.",
+        "answer": "The first pair uses two units for length. Seconds measure time, so the second pair names different properties."
+      }
+    ],
+    "summary": [
+      "A measurement combines quantity, value, unit and method.",
+      "Changing units changes the number without changing the object.",
+      "Record meaningful precision, and distinguish length, area and volume."
+    ],
+    "sources": [
+      "os-units"
+    ],
+    "diagram": "measurement",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "ratios",
+    "intro": "A delay plug-in says 12 ms. A room calculator asks for seconds. These are two descriptions of time, not two kinds of time. Conversion is the art of changing the description while keeping the physical duration unchanged. Ratios also let us compare quantities: twice as long, half as far, or ten cycles every second.\n\nPredict before calculating: is 12 milliseconds longer or shorter than one second? If your conversion produces a large number of seconds, this prediction should make you suspicious.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Ratio",
+        "definition": "One quantity divided by another; it describes a comparison."
+      },
+      {
+        "term": "Prefix",
+        "definition": "A word or symbol attached to a unit that scales its size."
+      },
+      {
+        "term": "Milli (m)",
+        "definition": "One thousandth of a unit; ms means millisecond."
+      },
+      {
+        "term": "Kilo (k)",
+        "definition": "One thousand units; kHz means kilohertz."
+      },
+      {
+        "term": "Power of ten",
+        "definition": "A compact way to express repeated factors of ten."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Division answers “how many per?”",
+        "paragraphs": [
+          "Imagine 12 equal intervals filling 6 seconds. Dividing 12 by 6 gives 2 intervals per second. The word per means divide by. If you divide 6 seconds by 12 intervals instead, you get 0.5 second per interval. These numbers answer different questions, even though both come from the same observation.",
+          "A ratio of two lengths in the same unit can be written without a physical unit: 4 m divided by 2 m is 2. The metres cancel because the question is how many copies of one length fit into the other. Do not cancel unlike quantities. Metres divided by seconds describe a speed, not a plain comparison number."
+        ]
+      },
+      {
+        "title": "Prefixes change the size of a unit",
+        "paragraphs": [
+          "One millisecond is one thousandth of a second. A thousand milliseconds fill one second. To turn milliseconds into seconds, divide the number by 1000. Twelve divided by one thousand is 0.012, so 12 ms = 0.012 s. To go back, multiply by 1000. The round trip should recover 12 ms.",
+          "Kilo goes the other direction. One kilohertz contains 1000 hertz. You will soon learn that hertz measures repetitions per second. For now, 2 kHz and 2000 Hz name the same frequency. The letter case matters: m is not M. Keep an explicit unit through each calculation rather than moving a decimal point from memory alone."
+        ]
+      },
+      {
+        "title": "Powers make scale visible",
+        "paragraphs": [
+          "The expression 10³ means 10 × 10 × 10, which is 1000. The raised 3 is an exponent. It counts factors in this example; it does not mean multiply 10 by 3. The expression 10⁻³ means one divided by 10³, or 0.001. The negative exponent indicates a reciprocal, not a negative time or distance.",
+          "Scientific notation separates a number into a manageable value times a power of ten. Thus 0.012 s can be written 1.2 × 10⁻² s. Read that as “one point two times one hundredth of a second.” You can keep using ordinary decimals in this course. Scientific notation becomes useful when comparing extremely small acoustic pressure changes or very large counts of vibrations. It is a tool for clarity, not a new physical principle."
+        ]
+      }
+    ],
+    "equation": "t_{\\mathrm{s}} = \\frac{t_{\\mathrm{ms}}}{1000}",
+    "symbols": "t_s is the numerical time value in seconds. t_ms is its numerical value in milliseconds. The fraction bar means divide. These subscripts label the units of the values; they do not indicate multiplication.",
+    "worked": {
+      "problem": "Convert a 25 ms delay into seconds and explain the conversion.",
+      "steps": [
+        "There are 1000 milliseconds in one second.",
+        "Divide the millisecond value by 1000: 25 ÷ 1000 = 0.025.",
+        "Check by returning: 0.025 × 1000 = 25."
+      ],
+      "answer": "25 ms equals 0.025 s. It is a small fraction of a second, consistent with the initial prediction."
+    },
+    "misconception": {
+      "claim": "A negative exponent means the physical quantity is negative.",
+      "correction": "10⁻³ is positive: it equals 0.001. An exponent’s minus sign tells you to take a reciprocal."
+    },
+    "questions": [
+      {
+        "prompt": "What is 3.5 kHz in hertz?",
+        "options": [
+          "0.0035 Hz",
+          "350 Hz",
+          "3500 Hz"
+        ],
+        "correct": 2,
+        "feedback": [
+          "Kilo means a larger unit, so the hertz count must increase.",
+          "The factor is one thousand, not one hundred.",
+          "Correct: 3.5 × 1000 = 3500."
+        ]
+      },
+      {
+        "prompt": "You count 20 events in 5 seconds. What is the average rate?",
+        "options": [
+          "4 events per second",
+          "0.25 events per second",
+          "100 events per second"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct. Divide count by elapsed seconds.",
+          "That is seconds per event; it answers the inverse question.",
+          "Multiplying does not answer how many occur each second."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Convert 8 ms, 150 ms and 1200 ms into seconds. Predict which lasts longer than one second first.",
+        "answer": "0.008 s, 0.150 s, 1.2 s. Only the last is longer than one second."
+      },
+      {
+        "prompt": "A 6 m cable is compared with a 2 m cable. Find the ratio, then reverse the comparison.",
+        "answer": "6/2 = 3. Reversing gives 2/6 = 1/3. State which cable is being compared to which."
+      },
+      {
+        "prompt": "Explain in words why 10² and 2 × 10 are different.",
+        "answer": "10² means two factors of ten, 100. Two times ten is 20. Exponents and ordinary multiplication answer different operations."
+      }
+    ],
+    "summary": [
+      "Per means division.",
+      "Milli and kilo scale a unit; conversion preserves the quantity.",
+      "An exponent is not a multiplier, and a negative exponent gives a reciprocal."
+    ],
+    "sources": [
+      "os-units"
+    ],
+    "diagram": "measurement",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "algebra",
+    "intro": "An equation is a compact sentence about a relationship. It is not a command to memorize mysterious letters. If a signal travels a fixed distance in a shorter time, its average speed is higher. Algebra lets us express that relationship once, then answer different questions without inventing a new rule every time.\n\nPredict: if travel time doubles while speed stays the same, will travel distance halve, stay the same, or double? You can answer this before seeing an equation. Keep that physical meaning beside the symbols.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Variable",
+        "definition": "A symbol standing for a quantity whose value can change or is not yet known."
+      },
+      {
+        "term": "Equation",
+        "definition": "A statement that two expressions have the same value."
+      },
+      {
+        "term": "Substitution",
+        "definition": "Putting a known value in place of a symbol."
+      },
+      {
+        "term": "Inverse operation",
+        "definition": "An operation that reverses another: division reverses multiplication."
+      },
+      {
+        "term": "Model",
+        "definition": "A simplified description that applies under stated conditions."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Read the symbols as words",
+        "paragraphs": [
+          "Let d name a distance, t name an elapsed time, and v name an average speed. The equation v = d/t says “average speed equals distance divided by elapsed time.” A fraction bar is division. The equals sign says both sides describe the same value; it does not mean “the answer comes next.” You can read the relationship in either direction.",
+          "Use names consistently. In some later wave equations, c will name the sound speed, reserving other symbols for particle motion. A symbol is a label chosen by the author, not a physical object. Look at the definition beside an equation instead of assuming the same letter always means the same thing. Units make the label meaningful: metres divided by seconds give metres per second."
+        ]
+      },
+      {
+        "title": "Keep the balance",
+        "paragraphs": [
+          "Suppose you know speed and time but want distance. Start from v = d/t. Multiplying both sides by t preserves equality. On the right, division by t followed by multiplication by t cancels, leaving d. The relationship is now d = v × t. We have changed its arrangement, not its physical content.",
+          "To find time instead, divide d = v × t by v on both sides, giving t = d/v. This requires a nonzero speed. You never need to “move a letter across” by magic: choose an inverse operation and do the same thing to both sides. Writing the intermediate step makes an error easier to spot than jumping directly to a remembered triangle."
+        ]
+      },
+      {
+        "title": "An answer must survive a check",
+        "paragraphs": [
+          "After substitution, calculate the number and its unit separately. If the distance is in metres and speed in metres per second, distance divided by speed produces seconds. If your supposed time comes out in metres squared per second, your arrangement or units are wrong. A correct-looking number with the wrong dimensions is not a physical answer.",
+          "Also ask whether the answer fits a simple prediction. Traveling twice as long at the same speed should cover twice as far. Dividing by time would predict the opposite, exposing the mistake. Finally substitute your result into the original equation. These checks catch different errors: units test the type of answer, the trend tests the relationship, and substitution tests the arithmetic."
+        ]
+      }
+    ],
+    "equation": "v = \\frac{d}{t}\\quad\\Longleftrightarrow\\quad d = vt\\quad\\Longleftrightarrow\\quad t = \\frac{d}{v}",
+    "symbols": "v is average speed in m/s; d is total distance in m; t is positive elapsed time in s. Adjacent letters vt mean multiply. The double arrow means equivalent arrangements. Use nonzero v when solving for time.",
+    "worked": {
+      "problem": "A hypothetical pulse moves at 300 m/s for 0.010 s. How far does it travel?",
+      "steps": [
+        "Write d = v × t because distance is unknown.",
+        "Substitute: d = (300 m/s) × (0.010 s).",
+        "Multiply 300 × 0.010 = 3. The seconds cancel."
+      ],
+      "answer": "The pulse travels 3 m. Check: 3 m / 0.010 s = 300 m/s. This speed is a chosen example, not a measured sound speed in your room."
+    },
+    "misconception": {
+      "claim": "Each rearrangement is a new physical law.",
+      "correction": "The three forms express one relationship. They answer different questions using the same assumptions."
+    },
+    "questions": [
+      {
+        "prompt": "For the same positive speed, twice the travel time gives…",
+        "options": [
+          "half the distance",
+          "the same distance",
+          "twice the distance"
+        ],
+        "correct": 2,
+        "feedback": [
+          "That would reverse the physical trend.",
+          "The source continues traveling during the extra time.",
+          "Correct: d = vt grows in direct proportion to t."
+        ]
+      },
+      {
+        "prompt": "Which unit should distance divided by speed produce?",
+        "options": [
+          "seconds",
+          "metres squared",
+          "metres per second"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct: m divided by (m/s) leaves s.",
+          "That would result from multiplying lengths, which is not this operation.",
+          "That is the unit of speed itself, not the result of dividing distance by speed."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "A toy cart travels 6 m at a constant 2 m/s. Solve for time and check by multiplying back.",
+        "answer": "t = d/v = 6/2 = 3 s. Check: (2 m/s)(3 s) = 6 m."
+      },
+      {
+        "prompt": "Starting from d = vt, explain every operation needed to find v.",
+        "answer": "Divide both sides by the same nonzero t. On the right t/t is one, leaving v; on the left d/t remains."
+      },
+      {
+        "prompt": "A calculation of travel time gives 3000 m. Name two independent problems to investigate.",
+        "answer": "Metres are not time units, suggesting an incorrect arrangement/unit handling. Also compare with a rough expected time to catch an additional numerical conversion error."
+      }
+    ],
+    "summary": [
+      "An equation states equality; variables are defined labels.",
+      "Inverse operations preserve equality when applied to both sides.",
+      "Check units, physical trend and substitution before accepting an answer."
+    ],
+    "sources": [
+      "os-units",
+      "os-graphs"
+    ],
+    "diagram": "graph",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "graphs",
+    "intro": "The line on an oscilloscope is not a photograph of a sound wave flying across the screen. A graph arranges pairs of values so that patterns become visible. Reading its axes is the difference between understanding a measurement and inventing a story about its shape.\n\nBefore studying the diagram, predict: could exactly the same curved line represent motion over time and a pattern spread across space? Yes—but its interpretation would change. The first job is to ask what each axis measures, not what the curve resembles.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Axis",
+        "definition": "A reference line along which values are marked."
+      },
+      {
+        "term": "Coordinate",
+        "definition": "A value locating a point on an axis."
+      },
+      {
+        "term": "Trace",
+        "definition": "The plotted line joining or representing measured/calculated values."
+      },
+      {
+        "term": "Slope",
+        "definition": "Vertical change divided by horizontal change over a stated interval."
+      },
+      {
+        "term": "Snapshot",
+        "definition": "A view of different positions at one instant, rather than one position over time."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Decode a point before the whole curve",
+        "paragraphs": [
+          "A time graph might place time in seconds along the horizontal axis and cone displacement in millimetres along the vertical axis. A point at time 0.2 s and displacement 1 mm means the cone is 1 mm from its chosen reference position at that time. It does not mean the cone has moved 0.2 m horizontally. Horizontal placement on this graph is time, not room position.",
+          "Zero displacement means “at the reference position.” A negative value means on the chosen negative side, not a physically negative amount of matter. If the reference is the resting cone position and outward is positive, negative displacement means inward. Another person could reverse that convention and describe the same motion with an upside-down graph. State the convention before arguing about signs."
+        ]
+      },
+      {
+        "title": "Read change, not just height",
+        "paragraphs": [
+          "On a position-versus-time graph, an upward-sloping segment means position increases as time passes. A downward-sloping segment means it decreases. A flat segment means position stays constant during that interval. A steep line means a large position change in a short time. That tells you about velocity; it does not by itself tell you about how far the object is from its starting position.",
+          "For a straight segment between two points, average slope is the change in the vertical value divided by the change in the horizontal value. From 0 mm at 0 s to 2 mm at 1 s, that is 2 mm per second. A high flat line can have zero slope. A low line can have a large slope. Height and rate of change are separate pieces of information."
+        ]
+      },
+      {
+        "title": "Time traces and spatial snapshots",
+        "paragraphs": [
+          "Now replace the horizontal time axis with distance along the room, measured in metres. Keep the vertical axis as pressure variation, which a later lesson will define. This graph describes different places at one instant. A crest is a location where the plotted quantity is large at that instant. It is not a particle floating above the floor.",
+          "To describe a traveling disturbance, you may need many spatial snapshots or many time traces. A single trace does not reveal every property of the field. Always inspect labels, units, scale and whether values are measured, calculated, or drawn schematically. Unequal tick spacing or a logarithmic scale changes how visual distances correspond to numerical differences. We will introduce logarithms before asking you to read those scales quantitatively."
+        ]
+      }
+    ],
+    "equation": "\\text{average slope}=\\frac{\\text{change in vertical quantity}}{\\text{change in horizontal quantity}}",
+    "symbols": "“Change” means final value minus initial value over the stated interval. The slope’s units are vertical units divided by horizontal units. The diagram is schematic and does not imply a calibrated sound recording.",
+    "worked": {
+      "problem": "A cone goes from −1 mm at 0 s to +1 mm at 0.5 s on a straight position-time segment. Find its average slope.",
+      "steps": [
+        "Vertical change is +1 − (−1) = +2 mm: subtracting a negative adds.",
+        "Horizontal change is 0.5 − 0 = 0.5 s.",
+        "Divide: 2 mm / 0.5 s = 4 mm/s."
+      ],
+      "answer": "The average velocity over this segment is +4 mm/s under the stated sign convention. The final position is only +1 mm; do not confuse position with slope."
+    },
+    "misconception": {
+      "claim": "A curve shaped like a wave shows the path of an air particle.",
+      "correction": "Only the axis definitions tell you what is plotted. A pressure-time curve is a changing scalar at a location, not a molecule’s trajectory."
+    },
+    "questions": [
+      {
+        "prompt": "A position-time graph is horizontal at +2 mm. What is happening?",
+        "options": [
+          "The object moves rapidly because the line is high",
+          "The object stays at +2 mm over that interval",
+          "The object is at its zero position"
+        ],
+        "correct": 1,
+        "feedback": [
+          "Height is position; motion depends on change with time.",
+          "Correct: position is constant, so the slope is zero.",
+          "The graph explicitly places it away from zero."
+        ]
+      },
+      {
+        "prompt": "What must you inspect before interpreting a graph?",
+        "options": [
+          "Its color",
+          "Whether it looks smooth",
+          "Axis quantities, units and scales"
+        ],
+        "correct": 2,
+        "feedback": [
+          "Color can help distinguish traces but does not define the quantities.",
+          "Smoothness does not tell you what is being measured.",
+          "Correct. Start with what each coordinate means."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Sketch a displacement-time graph for a cone held still, moved outward, then held still again. Label both axes.",
+        "answer": "Flat initially, rising during outward motion, then flat at a higher displacement. Time is horizontal; displacement with units is vertical."
+      },
+      {
+        "prompt": "Explain how a line can be high but have zero slope.",
+        "answer": "A value can be large and unchanging. For example, a cone held at +2 mm has nonzero displacement and zero velocity."
+      },
+      {
+        "prompt": "Write a sentence explaining the difference between a time trace and a spatial snapshot.",
+        "answer": "A time trace follows changes at a location over time; a spatial snapshot compares locations at the same instant."
+      }
+    ],
+    "summary": [
+      "A graph represents pairs of values, not necessarily a physical shape.",
+      "Slope and height mean different things.",
+      "Label axes and distinguish time evolution from spatial variation."
+    ],
+    "sources": [
+      "os-graphs",
+      "os-sound"
+    ],
+    "diagram": "graph",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "motion",
+    "intro": "A loudspeaker cone can move quickly and still end up exactly where it started. To explain that without contradiction, we need different words for where an object is, how much its position changes, and how much ground it covers. These distinctions will later prevent a common error: confusing the speed of a sound disturbance with the motion of the air carrying it.\n\nPrediction: if a cone moves 1 mm outward and then 1 mm inward, is its total motion zero? The correct answer depends on which quantity you mean. Physics rewards a more precise question.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Position",
+        "definition": "Location relative to a defined reference and direction."
+      },
+      {
+        "term": "Displacement",
+        "definition": "Final position minus initial position, including sign."
+      },
+      {
+        "term": "Distance traveled",
+        "definition": "Total path length accumulated, irrespective of direction."
+      },
+      {
+        "term": "Velocity",
+        "definition": "Rate of change of position, including direction."
+      },
+      {
+        "term": "Acceleration",
+        "definition": "Rate of change of velocity, including changes of direction."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Two ways to count a journey",
+        "paragraphs": [
+          "Choose the cone’s resting position as zero and outward as positive. It moves from 0 to +1 mm and back to 0. Its displacement over the full trip is final minus initial, or 0 − 0 = 0 mm. Its distance traveled is the outward 1 mm plus the inward 1 mm, or 2 mm. Neither result contradicts the other. They describe different properties of the same journey.",
+          "Average speed is distance traveled divided by elapsed time. Average velocity is displacement divided by elapsed time. If that round trip took 0.02 s, its average speed is 2 mm / 0.02 s = 100 mm/s; its average velocity over the full interval is zero. Neither average tells you its exact velocity at every instant. An average can hide important variation."
+        ]
+      },
+      {
+        "title": "Direction is part of velocity",
+        "paragraphs": [
+          "A value of −2 mm/s says the object is moving toward decreasing position under our convention. It does not automatically mean slowing down. Moving at −4 mm/s is faster in magnitude than moving at −2 mm/s even though the signed number is smaller. Speed is the magnitude of velocity and cannot be negative.",
+          "Acceleration describes velocity change per time. If velocity changes from 0 to +4 mm/s in one second, average acceleration is +4 mm/s per second, written +4 mm/s². The square on seconds comes from dividing by time twice. Acceleration can speed something up, slow it down, or reverse its direction. Later, a vibration will require continual velocity change even when its repeated pattern remains steady."
+        ]
+      },
+      {
+        "title": "Turning around is a physical event",
+        "paragraphs": [
+          "At a smooth turning point, an object changes direction. Its velocity passes through zero for an instant. That does not imply zero acceleration: a restoring interaction may be strongest there. Think of a slowly swinging object at its outermost point. It momentarily stops before returning; something must change its velocity to make it return.",
+          "We are describing motion here, not yet explaining its cause. The next lesson introduces force. Keep these questions separate: “What is the object doing?” is a motion description; “What interactions change that motion?” is a causal question. A sound wave’s speed will also be a different quantity: it describes how rapidly a pattern reaches another location, not the average velocity of a cone or an air parcel."
+        ]
+      }
+    ],
+    "equation": "\\bar{v}=\\frac{x_{\\mathrm{final}}-x_{\\mathrm{initial}}}{\\Delta t}",
+    "symbols": "v with a bar is average velocity. x_final and x_initial are positions in metres. Δt means elapsed time in seconds; Δ is the Greek letter delta, meaning change. The result is signed m/s.",
+    "worked": {
+      "problem": "A cone starts at −1 mm and reaches +1 mm in 0.01 s. Find its average velocity.",
+      "steps": [
+        "Compute displacement: +1 − (−1) = +2 mm.",
+        "Divide by 0.01 s: 2 / 0.01 = 200 mm/s.",
+        "Convert if desired: 200 mm/s = 0.2 m/s."
+      ],
+      "answer": "Average velocity is +0.2 m/s. This is not a claim about sound speed or an instantaneous velocity."
+    },
+    "misconception": {
+      "claim": "Zero net displacement means the object never moved.",
+      "correction": "Returning to the starting point gives zero net displacement even after substantial distance traveled."
+    },
+    "questions": [
+      {
+        "prompt": "A cone completes a round trip to its starting point. Which must be zero?",
+        "options": [
+          "Distance traveled",
+          "Average velocity over that trip",
+          "Speed throughout the trip"
+        ],
+        "correct": 1,
+        "feedback": [
+          "Distance counts the outward and return paths.",
+          "Correct: the total displacement is zero.",
+          "It had to move during some of the interval."
+        ]
+      },
+      {
+        "prompt": "A negative velocity necessarily means…",
+        "options": [
+          "motion toward decreasing coordinates",
+          "slowing down",
+          "negative speed"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct. The sign indicates direction under the chosen convention.",
+          "Slowing depends on how the velocity magnitude changes.",
+          "Speed is the nonnegative magnitude of velocity."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "An object goes 3 m right and 2 m left. Find distance and displacement with right positive.",
+        "answer": "Distance is 5 m. Displacement is +1 m."
+      },
+      {
+        "prompt": "Its journey takes 5 s. Find average speed and average velocity.",
+        "answer": "Average speed is 5/5 = 1 m/s. Average velocity is +1/5 = +0.2 m/s."
+      },
+      {
+        "prompt": "Explain why a turning cone can have zero velocity but nonzero acceleration.",
+        "answer": "An instantaneous zero velocity does not mean velocity is unchanging. A returning cone must change its velocity through zero to reverse direction."
+      }
+    ],
+    "summary": [
+      "Position, displacement and distance answer different questions.",
+      "Average speed and average velocity need not agree.",
+      "Acceleration describes velocity change, not simply “going fast.”"
+    ],
+    "sources": [
+      "os-graphs",
+      "os-oscillation"
+    ],
+    "diagram": "graph",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "force",
+    "intro": "A hand can push a microphone stand, a stretched string can pull a bridge, and surrounding air can push on a diaphragm. A force describes an interaction, not a substance stored inside a moving object. We need that distinction before explaining how one region of air affects its neighbor.\n\nPredict: would the same push spread over a larger surface create more or less pressure? Imagine pressing a fingertip and then a broad palm against a soft cushion. Be careful: the total push and how concentrated it is are different quantities.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Force",
+        "definition": "A push or pull arising from an interaction; it has direction."
+      },
+      {
+        "term": "Mass",
+        "definition": "A measure of an object’s inertia, expressed in kilograms."
+      },
+      {
+        "term": "Inertia",
+        "definition": "Resistance to a change in velocity, not resistance to motion itself."
+      },
+      {
+        "term": "Net force",
+        "definition": "The vector sum of all forces acting on an object."
+      },
+      {
+        "term": "Pressure",
+        "definition": "Normal force per area; a scalar measured in pascals (Pa)."
+      }
+    ],
+    "sections": [
+      {
+        "title": "What changes motion?",
+        "paragraphs": [
+          "An object can continue moving without a forward net force in an ideal frictionless setting. A net force changes velocity. In real equipment, friction, suspension forces and air loading are often present, so an actuator may be needed to maintain a particular motion. This does not turn “force causes velocity” into a general law.",
+          "Mass helps determine how much a given net force changes velocity. A larger mass has more inertia. Mass is measured in kilograms; force is measured in newtons, N. A kilogram and a newton are not interchangeable. Weight is a force due to gravity; it depends on the gravitational field as well as mass. We will avoid treating mass, weight and pressure as synonyms."
+        ]
+      },
+      {
+        "title": "Opposing forces can balance",
+        "paragraphs": [
+          "Forces have direction. Two equal opposing pushes on a diaphragm can have zero net force even though each individual force is nonzero. To add them along one line, choose a positive direction and use signed values. A +2 N force and a −2 N force sum to zero. A +3 N force and a −2 N force leave +1 N net force.",
+          "Air pressure acts normally, meaning perpendicular to a small surface. Ordinary atmospheric pressure acts on both sides of an exposed diaphragm. A small difference between the pressures can provide a net force even though both absolute pressures are large. Later “sound pressure” will usually mean the small changing part around the ambient pressure, not the entire atmospheric pressure."
+        ]
+      },
+      {
+        "title": "A distributed push",
+        "paragraphs": [
+          "For a uniform normal force over a flat area, pressure equals force divided by area. One pascal is one newton per square metre. Holding the total force fixed while doubling the area halves the pressure. Holding pressure fixed while doubling area doubles the force. These are distinct experiments: always state what stays fixed.",
+          "A pressure value at a point does not have a direction like a force vector. Pressure differences across space can create directed net forces on a small volume of air. This is the first causal bridge to sound: compressed regions push adjacent regions, and those regions have inertia. We will build that mechanism carefully after learning energy and vibration. No claim about absorption or microphone sensitivity follows just from pressure equals force divided by area."
+        ]
+      }
+    ],
+    "equation": "p = \\frac{F_{\\perp}}{A}",
+    "symbols": "p is uniform pressure in pascals (Pa). F_perp is normal force in newtons (N); the perpendicular symbol indicates force normal to the surface. A is surface area in m². 1 Pa = 1 N/m².",
+    "worked": {
+      "problem": "A uniform 2 N normal force is distributed over 0.5 m². Find pressure; then double the area.",
+      "steps": [
+        "Compute p = 2 N / 0.5 m² = 4 Pa.",
+        "For 1 m² with the same total force, p = 2/1 = 2 Pa.",
+        "The area doubled, so pressure halved."
+      ],
+      "answer": "The values are 4 Pa and 2 Pa. This is a static distribution example, not a calibrated sound pressure measurement."
+    },
+    "misconception": {
+      "claim": "Pressure and force are the same quantity.",
+      "correction": "Force is a directed interaction measured in N. Pressure distributes a normal force over area and is measured in N/m²."
+    },
+    "questions": [
+      {
+        "prompt": "Same total normal force, twice the area: pressure is…",
+        "options": [
+          "twice as large",
+          "unchanged",
+          "half as large"
+        ],
+        "correct": 2,
+        "feedback": [
+          "Increasing the denominator reduces the quotient.",
+          "The total force stays fixed, not the pressure.",
+          "Correct. Dividing fixed force by twice the area halves the pressure."
+        ]
+      },
+      {
+        "prompt": "Equal pressure on equal opposing diaphragm faces implies…",
+        "options": [
+          "no individual pressure forces",
+          "zero net pressure force in the idealized balance",
+          "zero atmospheric pressure"
+        ],
+        "correct": 1,
+        "feedback": [
+          "Nonzero forces can cancel.",
+          "Correct. Net force concerns the sum of directed forces.",
+          "The atmosphere can exert large equal forces on both sides."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Explain why a moving object need not have a net force in its direction of travel.",
+        "answer": "Net force changes velocity. Maintaining a constant velocity in an ideal frictionless setting requires no net force."
+      },
+      {
+        "prompt": "A uniform 6 N force acts over 3 m². Calculate pressure and state both units.",
+        "answer": "2 Pa, equivalent to 2 N/m². Force and pressure units remain distinct."
+      },
+      {
+        "prompt": "Describe the difference between 1 kg and 1 N without using the word “weight” for both.",
+        "answer": "Kilograms measure mass/inertia. Newtons measure force, an interaction that can change velocity."
+      }
+    ],
+    "summary": [
+      "Forces change velocity; net force includes direction.",
+      "Mass and force use different units.",
+      "Pressure is normal force per area; balanced pressure forces can cancel."
+    ],
+    "sources": [
+      "os-force",
+      "os-pressure"
+    ],
+    "diagram": "force",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "energy",
+    "intro": "A plucked string gradually becomes quiet. Its motion has not vanished without consequence: energy is transferred into air, the instrument body, and internal losses. To reason about this we must separate a stored or transferred amount of energy from how quickly energy is transferred.\n\nPredict: can two processes transfer the same energy but have different powers? Think of the same task done quickly or slowly. Audio equipment labels often use watts, but a watt is not an amount of energy and an amplifier’s electrical rating is not the acoustic energy delivered to your ear.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Energy",
+        "definition": "A conserved quantity used to account for changes and transfers in physical systems."
+      },
+      {
+        "term": "Kinetic energy",
+        "definition": "Energy associated with motion, relative to a reference frame."
+      },
+      {
+        "term": "Potential energy",
+        "definition": "Energy associated with a configuration, such as a stretched spring."
+      },
+      {
+        "term": "Power",
+        "definition": "Rate of energy transfer; energy per time."
+      },
+      {
+        "term": "Joule and watt",
+        "definition": "Joule (J) is an energy unit; watt (W) is one joule per second."
+      }
+    ],
+    "sections": [
+      {
+        "title": "An account of changes",
+        "paragraphs": [
+          "When you stretch a string slightly, you change its configuration. After release, that configuration can drive motion. During vibration, the moving string has kinetic energy, and its stretched configuration has potential energy. Describing both helps account for why motion continues and reverses rather than stopping permanently at the first turning point.",
+          "In an isolated total system, energy is conserved. A chosen subsystem can lose energy to its surroundings. The string’s decreasing mechanical energy does not imply total energy destruction. Internal friction can transfer organized mechanical energy into internal energy, and moving air can carry energy away. “Lost” often means lost from the particular motion we are tracking, not lost from the universe."
+        ]
+      },
+      {
+        "title": "Motion energy is not proportional to speed",
+        "paragraphs": [
+          "For a small object in ordinary nonrelativistic mechanics, kinetic energy is one half times mass times speed squared. Squared means multiplied by itself. Doubling speed with unchanged mass multiplies kinetic energy by four, because two times two is four. Reversing direction while keeping speed the same does not change kinetic energy: speed has no sign.",
+          "You do not need this expression to calculate a complete loudspeaker efficiency. Real cones, suspensions, electrical motors and radiation involve more than one particle. Its purpose here is to introduce a quantitative energy store and show why an amplitude-like quantity and an energy-like quantity may have different scaling. Later pressure-squared relationships will matter for decibels; we will state their additional assumptions then."
+        ]
+      },
+      {
+        "title": "Power is about time",
+        "paragraphs": [
+          "If 12 J is transferred in 3 s, average power is 12/3 = 4 W. The same 12 J transferred in 6 s is 2 W. The amount is unchanged; the rate differs. A watt does not tell you how long a transfer continues. To find transferred energy from a constant power, multiply power by duration.",
+          "Electrical input power and acoustic output power are different parts of an energy budget. Some input can become internal energy in coils or materials instead of radiated sound. Even acoustic output power alone does not determine pressure at a listener: distance, directionality, boundaries and interference also matter. Keep the chain of reasoning explicit instead of translating an amplifier’s watt rating directly into a room’s sound level."
+        ]
+      }
+    ],
+    "equation": "P_{\\mathrm{avg}}=\\frac{E_{\\mathrm{transferred}}}{\\Delta t}\\qquad K=\\frac{1}{2}mv^2",
+    "symbols": "P_avg is average power in W. E_transferred is transferred energy in J, Δt is elapsed time in s. K is kinetic energy in J, m is mass in kg, v is speed in m/s; v² means v times v. Classical low-speed model.",
+    "worked": {
+      "problem": "A 0.20 kg object moves at 2 m/s. Calculate its kinetic energy, then double its speed.",
+      "steps": [
+        "Square 2 m/s to obtain 4 m²/s².",
+        "Multiply ½ × 0.20 × 4 = 0.40 J.",
+        "At 4 m/s, square gives 16, so ½ × 0.20 × 16 = 1.60 J."
+      ],
+      "answer": "Doubling speed gave four times the kinetic energy. This example is not a model of an entire vibrating cone."
+    },
+    "misconception": {
+      "claim": "If a vibration dies away, its energy has been destroyed.",
+      "correction": "Mechanical energy left that subsystem through radiation and losses; include surroundings in the energy account."
+    },
+    "questions": [
+      {
+        "prompt": "A watt measures…",
+        "options": [
+          "stored energy",
+          "energy transfer per second",
+          "pressure at a microphone"
+        ],
+        "correct": 1,
+        "feedback": [
+          "Energy is measured in joules.",
+          "Correct: 1 W = 1 J/s.",
+          "Pressure is measured in pascals and depends on the sound field."
+        ]
+      },
+      {
+        "prompt": "Same mass, twice the speed: kinetic energy becomes…",
+        "options": [
+          "twice as large",
+          "four times as large",
+          "unchanged"
+        ],
+        "correct": 1,
+        "feedback": [
+          "The speed is squared, so the factor is squared too.",
+          "Correct: (2v)² = 4v².",
+          "Energy depends on speed even though it does not depend on direction."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Two processes transfer 20 J in 2 s and 5 s. Compare powers.",
+        "answer": "10 W and 4 W. They transfer equal energy at different rates."
+      },
+      {
+        "prompt": "Write a qualitative energy account for a ringing string that stops.",
+        "answer": "Include initial mechanical energy, sound radiated into air, transfer to the instrument/support, and internal losses. Do not assert numerical fractions without evidence."
+      },
+      {
+        "prompt": "Explain why electrical watts alone cannot specify listening-position SPL.",
+        "answer": "Conversion efficiency, radiation direction, distance and the room intervene. Electrical power is not the pressure field at the listener."
+      }
+    ],
+    "summary": [
+      "Energy accounts for stores and transfers; power is a rate.",
+      "Classical kinetic energy depends on speed squared.",
+      "Sound carries energy, but input watts are not a listener’s pressure measurement."
+    ],
+    "sources": [
+      "os-energy",
+      "os-levels"
+    ],
+    "diagram": "vibration",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "vibration",
+    "intro": "Pluck a guitar string and it moves back and forth. Now slow that event down mentally. It crosses a middle position, reaches an extreme, turns back, crosses the middle again, and reaches the opposite extreme. One complete repeat is a cycle. This simple story gives us the vocabulary that later describes pressure changes in air.\n\nPredict: if a system completes more cycles each second, does each cycle take more or less time? Also predict whether making the excursions larger necessarily changes that timing. Separate those questions before adjusting an instrument or a lab control.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Equilibrium",
+        "definition": "A reference configuration where the net force can be zero."
+      },
+      {
+        "term": "Oscillation",
+        "definition": "A back-and-forth variation around an equilibrium or reference."
+      },
+      {
+        "term": "Cycle",
+        "definition": "One full repeat returning to the same state of the motion."
+      },
+      {
+        "term": "Amplitude",
+        "definition": "Maximum magnitude of the chosen oscillating quantity relative to its reference."
+      },
+      {
+        "term": "Period and frequency",
+        "definition": "Period T is time per cycle; frequency f is cycles per second, measured in hertz (Hz)."
+      },
+      {
+        "term": "Damping",
+        "definition": "A process that removes mechanical energy from the oscillation."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Count a whole repeat",
+        "paragraphs": [
+          "Going from the center to an extreme is not a whole cycle. Neither is going from one extreme to the opposite extreme. A full cycle returns to the same position moving the same way. The direction condition matters because the center is crossed twice each cycle. If you count every center crossing as a full cycle, you can double the inferred frequency.",
+          "Period is a duration, measured in seconds. Frequency is a rate, measured in hertz: one hertz is one cycle per second. They are reciprocals. A period of 0.5 s fits two full cycles into one second, so the frequency is 2 Hz. A 0.01 s period fits one hundred cycles into one second, so the frequency is 100 Hz. Higher frequency means shorter period, not faster propagation through the room."
+        ]
+      },
+      {
+        "title": "Restoring interaction and inertia",
+        "paragraphs": [
+          "Why does an oscillator return? A restoring interaction tends to move it back toward equilibrium. Why does it overshoot instead of stopping there? Inertia: it arrives with velocity and can continue past the center. In the simplest mass-and-spring model, the spring’s restoring force increases in proportion to displacement. Combined with inertia, that produces simple harmonic motion, a sinusoidal variation.",
+          "A real instrument need not be a single ideal oscillator. Strings support many patterns, the body couples to air, and losses remove energy. A sine-like picture is a useful first model, not a complete description of a guitar waveform. Distinguish the chosen variable too: displacement amplitude in millimetres is not pressure amplitude in pascals."
+        ]
+      },
+      {
+        "title": "Amplitude is not repetition rate",
+        "paragraphs": [
+          "Amplitude measures the largest excursion of the quantity you chose. Frequency measures repetition rate. A simple model can vary one independently of the other. In a small ideal linear oscillator, a larger initial excursion need not change its frequency. Real systems can become nonlinear at large amplitude, so this independence has a domain of validity.",
+          "Damping reduces mechanical energy as time passes. An oscillation may have a shrinking amplitude envelope while still repeating approximately at a stable frequency. Do not confuse a decaying envelope with a decreasing frequency. On a displacement-time graph, amplitude is vertical size and period is horizontal spacing between equivalent points. This is why reading both axes and selecting matching states matters."
+        ]
+      }
+    ],
+    "equation": "f=\\frac{1}{T}\\qquad T=\\frac{1}{f}",
+    "symbols": "f is frequency in Hz (cycles per second). T is period in seconds per cycle. The number 1 represents one cycle in this relationship. These expressions apply to a regularly repeating motion; irregular events may not have a single period.",
+    "worked": {
+      "problem": "A cone completes 50 cycles in 0.10 s. Find frequency and period.",
+      "steps": [
+        "Divide cycle count by duration: 50 / 0.10 = 500 cycles/s.",
+        "Frequency is therefore 500 Hz.",
+        "Period is the reciprocal: 1/500 = 0.002 s = 2 ms."
+      ],
+      "answer": "The cone repeats every 2 ms. This is a repetition rate, not a distance or speed through air."
+    },
+    "misconception": {
+      "claim": "A taller waveform must have a higher frequency.",
+      "correction": "Vertical amplitude and horizontal repetition spacing describe different properties. Read both axes before comparing."
+    },
+    "questions": [
+      {
+        "prompt": "A regular vibration has period 0.004 s. Its frequency is…",
+        "options": [
+          "4 Hz",
+          "250 Hz",
+          "4000 Hz"
+        ],
+        "correct": 1,
+        "feedback": [
+          "Dividing 1 by 0.004 is not 4.",
+          "Correct: 1/0.004 = 250 cycles per second.",
+          "Check the reciprocal and units: 0.004 s is 4 ms, not 0.00025 s."
+        ]
+      },
+      {
+        "prompt": "Which identifies a full cycle?",
+        "options": [
+          "Center to extreme",
+          "Center to center regardless of direction",
+          "Same position and direction one repeat later"
+        ],
+        "correct": 2,
+        "feedback": [
+          "That is only part of a cycle.",
+          "The center is crossed twice with opposite directions.",
+          "Correct. The state of the motion has repeated."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Time ten slow safe hand oscillations with a clock. Divide total time by ten, then take the reciprocal.",
+        "answer": "Your numerical result depends on the motion. State that it is an average and that manual timing/repetition is imperfect."
+      },
+      {
+        "prompt": "Sketch a decaying oscillation whose frequency stays roughly constant. Label what shrinks and what remains about equal.",
+        "answer": "Peak height shrinks while spacing between equivalent peaks stays about equal."
+      },
+      {
+        "prompt": "Compare 100 Hz and 200 Hz periods without changing units mid-calculation.",
+        "answer": "1/100 = 0.010 s; 1/200 = 0.005 s. Doubling frequency halves period."
+      }
+    ],
+    "summary": [
+      "A full cycle repeats position and motion state.",
+      "Period and frequency are reciprocals.",
+      "Amplitude, repetition rate and damping describe different features."
+    ],
+    "sources": [
+      "os-oscillation",
+      "os-damping"
+    ],
+    "diagram": "vibration",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "mechanical-waves",
+    "intro": "A line of people can pass a message without walking to the end of the line. This is only an analogy—not a molecular model—but it separates two ideas: a local participant can move very little while an influence reaches a distant place. Sound is a mechanical disturbance transmitted through a material medium.\n\nPredict before opening the wave lab: if you mark one parcel of air, does it ride across the room with a crest, or move around its own local position? State what observation in the lab would distinguish those possibilities.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Medium",
+        "definition": "The material through which a mechanical disturbance propagates."
+      },
+      {
+        "term": "Mechanical wave",
+        "definition": "A disturbance carried by interacting material, transferring energy and momentum."
+      },
+      {
+        "term": "Propagation",
+        "definition": "The spread of a disturbance from place to place."
+      },
+      {
+        "term": "Transverse",
+        "definition": "Local displacement perpendicular to the propagation direction."
+      },
+      {
+        "term": "Longitudinal",
+        "definition": "Local displacement parallel to the propagation direction."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Local interaction makes a traveling disturbance",
+        "paragraphs": [
+          "In a simplified row of coupled particles, moving one changes forces on its neighbors. Their inertia means they do not instantly follow every disturbance everywhere. Neighboring regions respond in turn, so the pattern propagates at a finite speed. The details of restoring interactions and inertia determine that speed.",
+          "The medium is not a conveyor belt carrying marked particles with each crest. In the small-amplitude wave model, particles oscillate about local equilibrium positions while energy transfers through the medium. Air also has random molecular motion and can have bulk flow such as wind; those are separate motions. Our idealized wave diagrams isolate the coherent oscillating part, not the full thermal trajectories of individual molecules."
+        ]
+      },
+      {
+        "title": "Which way does the material move?",
+        "paragraphs": [
+          "For a transverse wave on an ideal string, the string displacement is across the direction the wave travels. A point can move up and down while a pulse travels horizontally. For longitudinal sound in air, the local coherent displacement is along the propagation direction. A particle moves back and forth while compressed regions advance.",
+          "A curve can represent either situation, depending on its axes. A drawing of a string’s actual displacement is not the same as a pressure graph. Pressure is a scalar value plotted vertically for convenience; that does not mean air moves vertically. The lab separates a pressure trace from a particle row so you can compare two representations of the same ideal traveling wave."
+        ]
+      },
+      {
+        "title": "Energy travels without a net ride",
+        "paragraphs": [
+          "The source does work on its surroundings, and neighboring regions exchange energy. Far from a source, a receiver can respond after the disturbance reaches it. A microphone diaphragm moving later is evidence of a transmitted influence, not evidence that the exact air next to the source flew into the microphone.",
+          "This model explains why a mechanical wave needs a medium. It cannot propagate through a perfect vacuum, because there is no material there to provide the required interactions and inertia. Electromagnetic waves such as light are a different category and can travel through vacuum. We will not use sound and light interchangeably just because both can have frequency and wavelength."
+        ]
+      }
+    ],
+    "equation": "\\text{wave travel distance}=c\\,\\Delta t",
+    "symbols": "c is wave propagation speed in m/s. Δt is elapsed time in s. The resulting distance is in m. This describes the traveling pattern, not the excursion of a particle. A constant-speed homogeneous-medium approximation is assumed.",
+    "worked": {
+      "problem": "A wave pattern propagates at 343 m/s for 0.010 s. How far does the pattern travel?",
+      "steps": [
+        "Use distance = speed × time.",
+        "Multiply 343 × 0.010 = 3.43.",
+        "Units are (m/s) × s = m."
+      ],
+      "answer": "The pattern travels 3.43 m. No particle-displacement distance can be inferred from that calculation."
+    },
+    "misconception": {
+      "claim": "Air molecules near a speaker travel to your ear with the sound.",
+      "correction": "In the linear wave model local parcels oscillate while the disturbance propagates. Bulk airflow and random thermal motion are distinct phenomena."
+    },
+    "questions": [
+      {
+        "prompt": "For longitudinal sound in air, local oscillation is…",
+        "options": [
+          "parallel to propagation",
+          "always upward",
+          "a ride with the crest"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct. Back-and-forth displacement is along the direction the disturbance travels.",
+          "The upward graph axis usually represents a value, not molecular direction.",
+          "Follow a marked parcel: it returns rather than traveling with the crest."
+        ]
+      },
+      {
+        "prompt": "A perfect vacuum cannot carry ordinary sound because…",
+        "options": [
+          "there is no material to transmit the mechanical disturbance",
+          "frequency becomes negative",
+          "sound becomes light"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct. Mechanical sound requires a material medium.",
+          "Frequency is a repetition rate, not a measure of emptiness.",
+          "Different types of waves do not transform automatically into one another."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "In the wave lab, select particle view and step time. Follow the marked parcel and compare it to the moving compression pattern.",
+        "answer": "The parcel oscillates around its starting location; the compression pattern moves onward. The coherent displacement is exaggerated and the clock is slowed."
+      },
+      {
+        "prompt": "Describe a rope wave using both propagation direction and particle-motion direction.",
+        "answer": "For a horizontal rope wave with up/down displacement, propagation is horizontal and local motion is transverse."
+      },
+      {
+        "prompt": "Explain why a distant microphone can receive energy without receiving the air that was originally beside the loudspeaker.",
+        "answer": "Local interactions transfer energy through successive regions. Net transport of the original air parcel is not required."
+      }
+    ],
+    "summary": [
+      "A mechanical wave needs interacting material.",
+      "Propagation speed differs from local particle motion.",
+      "Pressure graphs do not depict particles flying along the curve."
+    ],
+    "sources": [
+      "os-waves",
+      "psu-waves"
+    ],
+    "diagram": "wave",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "pressure-waves",
+    "intro": "A loudspeaker cone moving outward compresses nearby air. As it moves back, nearby pressure can fall below its ambient value. Neighboring regions respond, so the disturbance spreads. This pressure variation—not a chain of high-speed particles launched across the room—is the central quantity most microphones sense.\n\nPredict: if a pressure graph dips below zero, does that mean there is negative absolute pressure in ordinary room air? The reference level of the graph will decide the answer.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Ambient pressure",
+        "definition": "The surrounding baseline pressure about which a small sound pressure varies."
+      },
+      {
+        "term": "Acoustic pressure",
+        "definition": "The changing deviation of pressure from its ambient value."
+      },
+      {
+        "term": "Compression",
+        "definition": "A region with increased density and pressure relative to the equilibrium state in this model."
+      },
+      {
+        "term": "Rarefaction",
+        "definition": "A region with decreased density and pressure relative to the equilibrium state."
+      },
+      {
+        "term": "Linear approximation",
+        "definition": "A small-disturbance model in which responses add in direct proportion."
+      }
+    ],
+    "sections": [
+      {
+        "title": "A small variation on a large background",
+        "paragraphs": [
+          "Pressure is normal force per area, measured in pascals. A pressure microphone responds to the changing pressure at its location, converted through its transducer into an electrical signal. A sound pressure trace typically removes the large slowly varying ambient background. Its zero means no deviation at that moment, not no air and not zero absolute atmospheric pressure.",
+          "Negative acoustic pressure means pressure below the chosen ambient value. Ordinary small-amplitude sound still has positive absolute pressure. We use this signed deviation because it reveals the oscillation clearly and lets us add small disturbances. Be explicit about the reference before interpreting a negative sample in a graph or waveform."
+        ]
+      },
+      {
+        "title": "Compression is about neighboring positions",
+        "paragraphs": [
+          "A single particle being far from its equilibrium position is not enough to identify a compression. Density depends on how neighboring particles crowd together. If adjacent parcels move toward each other, the local spacing decreases and density rises. If they move apart, spacing increases and density falls.",
+          "For an ideal sinusoidal traveling wave, the greatest compression corresponds to the largest spatial decrease of displacement, not its largest value. Pressure and particle displacement therefore have a quarter-cycle spatial offset. Pressure and particle velocity, however, are in phase for a single plane traveling wave in a lossless medium. Those relationships differ: displacement is where the material is, velocity is how it is moving, and pressure describes a local state. We will reserve their mathematical derivation for the optional track."
+        ]
+      },
+      {
+        "title": "What the drawing does and does not say",
+        "paragraphs": [
+          "The lab uses a row of visible dots as representative parcels. Their coherent back-and-forth displacement is exaggerated so you can see it. Real air molecules have much more complicated thermal motion. The vertical pressure curve reports a scalar at each horizontal position; the curve is not a tube or a path a molecule follows.",
+          "A uniform, small-amplitude, one-direction plane wave omits spreading, reflections, wind, turbulence and losses. Real rooms contain many reflected contributions. The simple picture is valuable because it isolates the local mechanism. Do not infer actual room pressure amplitude or treatment performance from the spacing of dots. Use calibrated measurements when making quantitative claims about a real space."
+        ]
+      }
+    ],
+    "equation": "p_{\\mathrm{absolute}}=p_{\\mathrm{ambient}}+p_{\\mathrm{acoustic}}",
+    "symbols": "Each p is a pressure measured in Pa. The subscripts identify absolute pressure, ambient baseline and the signed acoustic deviation. The sum defines the deviation; it does not specify a microphone’s electrical calibration.",
+    "worked": {
+      "problem": "At one instant, a chosen ambient baseline is 100000 Pa and acoustic deviation is −0.2 Pa. What is absolute pressure?",
+      "steps": [
+        "Start from absolute = ambient + acoustic.",
+        "Substitute 100000 + (−0.2).",
+        "Subtract 0.2 from the baseline."
+      ],
+      "answer": "Absolute pressure is 99999.8 Pa: positive, slightly below baseline. The baseline is a convenient example, not a weather measurement."
+    },
+    "misconception": {
+      "claim": "The highest displacement of a parcel is the highest compression.",
+      "correction": "Compression depends on neighboring spacing, or the spatial gradient of displacement, rather than the displacement of one parcel alone."
+    },
+    "questions": [
+      {
+        "prompt": "A negative acoustic-pressure sample means…",
+        "options": [
+          "negative absolute pressure necessarily",
+          "pressure below its ambient baseline",
+          "air moving downward"
+        ],
+        "correct": 1,
+        "feedback": [
+          "The baseline has been removed; absolute pressure can remain positive.",
+          "Correct. Interpret the deviation relative to its reference.",
+          "The graph height is pressure, not a direction of molecular travel."
+        ]
+      },
+      {
+        "prompt": "What identifies compression in a representative particle row?",
+        "options": [
+          "Neighboring parcels become closer together",
+          "One parcel reaches its greatest displacement",
+          "The pressure curve is drawn in blue"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct. Reduced spacing corresponds to increased local density in this model.",
+          "A large common displacement need not change local spacing.",
+          "Color has no physical significance."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Use the lab’s time step to compare the particle row and pressure plot. Do compressions coincide with pressure peaks?",
+        "answer": "They should, within the deliberately simplified visual representation. Follow relative spacing rather than the position of just one dot."
+      },
+      {
+        "prompt": "Explain why ambient pressure must be stated or removed when plotting small sound pressure variations.",
+        "answer": "The large baseline can hide the small variation. Removing it permits a clear signed deviation, but changes what zero means."
+      },
+      {
+        "prompt": "Name three reasons this ideal plane-wave picture cannot predict your room’s response.",
+        "answer": "Examples: reflections, nonuniform source radiation, losses, complex geometry, furniture, and calibration. Any three explained limitations are acceptable."
+      }
+    ],
+    "summary": [
+      "Sound pressure is a signed variation around ambient pressure.",
+      "Compression concerns local crowding, not absolute displacement.",
+      "Pressure, particle displacement and particle velocity are distinct quantities."
+    ],
+    "sources": [
+      "os-pressure",
+      "os-sound",
+      "psu-waves"
+    ],
+    "diagram": "wave",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "wavelength",
+    "intro": "A low-frequency tone and a high-frequency tone can travel through the same air at nearly the same speed while repeating at very different rates. The missing link is spacing: how much room separates equivalent parts of the wave pattern. That distance is wavelength.\n\nPredict: if you double frequency without changing propagation speed, do the compressions get closer together or farther apart? Before using an equation, imagine more complete repeats fitting into the same traveled distance.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Wavelength",
+        "definition": "Spatial distance between equivalent successive points in a repeating wave, written λ."
+      },
+      {
+        "term": "Wave speed",
+        "definition": "Rate at which a phase pattern propagates, here written c."
+      },
+      {
+        "term": "Homogeneous",
+        "definition": "Having the same relevant properties throughout the region modeled."
+      },
+      {
+        "term": "Nondispersive approximation",
+        "definition": "Wave speed is treated as independent of frequency in the range considered."
+      },
+      {
+        "term": "Period",
+        "definition": "Time for one cycle at a fixed position; it is not a spatial distance."
+      }
+    ],
+    "sections": [
+      {
+        "title": "One repeat in time, one repeat in space",
+        "paragraphs": [
+          "Stand at a fixed position and time how long passes between equivalent pressure peaks. That duration is period T in seconds. Freeze the field at one instant and measure distance between equivalent pressure peaks. That distance is wavelength λ in metres. A time trace and a spatial snapshot answer different questions even when both look sinusoidal.",
+          "During one period, a steady traveling pattern advances one wavelength. Distance equals speed times time, so λ = cT. Since frequency f = 1/T, this is also λ = c/f, or c = fλ. These are the same relationship written three ways. They are not three independent rules to memorize. Explain one in words and the others follow by rearranging."
+        ]
+      },
+      {
+        "title": "Make the units do some work",
+        "paragraphs": [
+          "Frequency is cycles per second and wavelength is metres per cycle. Multiplying them gives metres per second: the cycles cancel. This makes c = fλ a statement about speed. Dividing c by f leaves metres, the required unit of wavelength. If you use kilohertz as though it were hertz, your wavelength can be wrong by a factor of one thousand.",
+          "For many ordinary audible-frequency examples in air near 20°C, c ≈ 343 m/s is a useful approximation. Temperature, composition and humidity affect the actual speed. A louder source is not assumed to launch its ordinary linear sound faster, and a higher audio frequency is not assumed to travel faster in this approximation. The model must be qualified rather than treated as a universal constant of every material."
+        ]
+      },
+      {
+        "title": "Why room-scale lengths matter",
+        "paragraphs": [
+          "At 100 Hz and 343 m/s, a wavelength is 3.43 m—comparable to a room dimension. At 1000 Hz it is 0.343 m. This helps you ask better boundary questions: is a panel, opening or spacing large or small compared with the wavelength? It does not by itself tell you absorption efficiency or the best speaker location.",
+          "The quarter-wavelength comparison in the workshop is one such length comparison. It must not be turned into a promise that a panel absorbs all sound above a calculated frequency. Real porous material performance depends on properties and mounting that the wavelength calculation does not contain. Learn to inspect what information an equation uses: it cannot predict detailed behavior governed by missing inputs."
+        ]
+      }
+    ],
+    "equation": "c=f\\lambda\\qquad\\lambda=\\frac{c}{f}\\qquad T=\\frac{1}{f}",
+    "symbols": "c is propagation speed in m/s; f is frequency in Hz; λ (lambda) is wavelength in m; T is period in s. The medium is assumed uniform with approximately frequency-independent speed for these examples.",
+    "worked": {
+      "problem": "Find wavelength and period for a 500 Hz tone using c = 343 m/s.",
+      "steps": [
+        "Wavelength: λ = c/f = 343/500 = 0.686 m.",
+        "Period: T = 1/500 = 0.002 s = 2 ms.",
+        "Check: fλ = 500 × 0.686 = 343 m/s."
+      ],
+      "answer": "The spatial repeat is 0.686 m; the temporal repeat is 2 ms. They are not interchangeable despite describing the same periodic wave."
+    },
+    "misconception": {
+      "claim": "Bass travels more slowly because its oscillations are slower.",
+      "correction": "Oscillation rate and propagation rate are different. With c fixed, lower frequency implies longer wavelength, not slower travel."
+    },
+    "questions": [
+      {
+        "prompt": "At fixed c, doubling f makes wavelength…",
+        "options": [
+          "twice as long",
+          "half as long",
+          "unchanged"
+        ],
+        "correct": 1,
+        "feedback": [
+          "That would make fλ four times larger instead of constant.",
+          "Correct. At fixed speed, wavelength is inversely proportional to frequency.",
+          "The product fλ must stay equal to c."
+        ]
+      },
+      {
+        "prompt": "Which is a period rather than a wavelength?",
+        "options": [
+          "0.686 m",
+          "500 Hz",
+          "0.002 s"
+        ],
+        "correct": 2,
+        "feedback": [
+          "Metres describe a distance.",
+          "Hertz describes repetition rate.",
+          "Correct. Seconds measure the duration of a repeat."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Calculate wavelengths for 100 Hz and 1000 Hz at 343 m/s before using the lab.",
+        "answer": "3.43 m and 0.343 m. The tenfold frequency increase gives a tenfold wavelength decrease."
+      },
+      {
+        "prompt": "A repeating wave has λ = 2 m and f = 5 Hz in a hypothetical medium. Calculate its speed.",
+        "answer": "c = fλ = 5 × 2 = 10 m/s. Do not substitute air speed because this is a specified hypothetical medium."
+      },
+      {
+        "prompt": "Explain why knowing wavelength alone does not determine how well a porous panel absorbs sound.",
+        "answer": "Wavelength lacks material flow resistance, mounting, thickness, incidence and other loss information. A geometric comparison is not a performance model."
+      }
+    ],
+    "summary": [
+      "Period is temporal; wavelength is spatial.",
+      "For a repeating traveling wave, c = fλ.",
+      "State medium conditions and do not extract material performance from geometry alone."
+    ],
+    "sources": [
+      "os-waves",
+      "os-speed"
+    ],
+    "diagram": "wave",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "phase",
+    "intro": "Two players can repeat the same rhythm at the same tempo while starting at different moments. Frequency describes the tempo of a periodic physical signal; phase describes where it is within its repeat relative to a chosen reference. The analogy helps introduce alignment, but a physical phase comparison requires a clearly defined waveform, frequency, location and time.\n\nPredict: can a fixed delay correspond to a quarter cycle at one frequency and half a cycle at another? Think about the period getting shorter as frequency increases.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Phase",
+        "definition": "Position within a cycle relative to a stated reference."
+      },
+      {
+        "term": "Degree",
+        "definition": "A unit of angle; a full cycle can be represented by 360 degrees."
+      },
+      {
+        "term": "In phase",
+        "definition": "Equivalent sinusoidal cycle states align, modulo whole cycles."
+      },
+      {
+        "term": "Delay",
+        "definition": "A time shift, measured in seconds; its phase effect depends on frequency."
+      },
+      {
+        "term": "Polarity reversal",
+        "definition": "Multiplying all signal values by −1; not generally equivalent to one fixed delay for a complex signal."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Count fractions of a repeat",
+        "paragraphs": [
+          "Use a pure repeating sinusoid as the simplest case. Choose its positive peak as phase zero. One quarter of a cycle later corresponds to 90°, half a cycle to 180°, three quarters to 270°, and a full cycle to 360°. Returning after a full cycle gives the same state, so 0° and 360° are equivalent alignments for that sinusoid.",
+          "You can use fractions without trigonometry. Divide elapsed delay by period to find the cycle fraction. Multiply by 360 to express that fraction in degrees. For example, a delay of one quarter of a period corresponds to a 90° phase shift in magnitude. Whether a delayed trace is labeled positive or negative phase depends on the chosen sign convention; always say which signal is the reference."
+        ]
+      },
+      {
+        "title": "Time shift and phase are related, not identical",
+        "paragraphs": [
+          "At 100 Hz, period is 0.01 s, so a 0.0025 s delay is one quarter cycle. At 200 Hz, period is 0.005 s, so the same delay is half a cycle. Therefore a fixed delay gives a frequency-dependent phase difference. A knob labeled delay does not impose the same phase angle at every frequency.",
+          "A polarity reversal makes every positive sample negative and vice versa. For one sinusoid it can look like a half-cycle time shift. For a sum of different frequencies, one fixed time delay will not generally equal a polarity reversal of the whole signal. This distinction matters when comparing microphone or loudspeaker signals: say what operation you actually performed."
+        ]
+      },
+      {
+        "title": "What alignment changes when waves add",
+        "paragraphs": [
+          "At a location, small acoustic pressure contributions add with their signs. Two equal sinusoids of the same frequency and phase give twice the pressure amplitude. With half-cycle opposition they cancel in the ideal equal-amplitude model. With unequal amplitudes they leave a residual. At other phase offsets the result lies between those extremes.",
+          "This does not mean two speakers can cancel sound everywhere. Travel distances and boundary contributions change local phase and amplitude across a room. Nor can you add independent noise by simply assigning it one fixed phase angle. The interference lab isolates two coherent equal-frequency contributions at one location. Try 0°, 180° and 360°, then reduce the second amplitude before drawing any general conclusion."
+        ]
+      }
+    ],
+    "equation": "\\text{phase-shift magnitude in degrees}=360\\,f\\,\\Delta t",
+    "symbols": "f is sinusoidal frequency in Hz; Δt is a positive time delay in s. fΔt is the number of cycles represented by the delay. The expression gives a magnitude; lead/lag sign requires a stated convention, and whole cycles may be removed for wrapped phase.",
+    "worked": {
+      "problem": "Find the phase-shift magnitude of 2.5 ms at 100 Hz, then at 200 Hz.",
+      "steps": [
+        "Convert 2.5 ms to 0.0025 s.",
+        "At 100 Hz, fΔt = 0.25 cycle, so multiply by 360 to obtain 90°.",
+        "At 200 Hz, fΔt = 0.5 cycle, giving 180°."
+      ],
+      "answer": "The same delay has two phase effects because the two periods differ. Neither result says that propagation speed changed."
+    },
+    "misconception": {
+      "claim": "A polarity switch always does the same thing as a fixed delay.",
+      "correction": "For a single sinusoid a half-period delay reverses it, but a complex signal contains different periods. One delay cannot generally reverse every component."
+    },
+    "questions": [
+      {
+        "prompt": "A full-cycle phase difference between identical sinusoids is equivalent to…",
+        "options": [
+          "zero-cycle alignment",
+          "half-cycle opposition",
+          "a change in frequency"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct. Corresponding cycle states repeat after a whole cycle.",
+          "A half cycle is 180°, not 360°.",
+          "Phase alignment does not change repetition rate."
+        ]
+      },
+      {
+        "prompt": "At fixed positive delay, doubling frequency does what to the unwrapped phase-shift magnitude?",
+        "options": [
+          "Halves it",
+          "Doubles it",
+          "Leaves it unchanged"
+        ],
+        "correct": 1,
+        "feedback": [
+          "The cycle gets shorter, so more of it fits into the delay.",
+          "Correct: the shift magnitude is proportional to fΔt.",
+          "A delay is fixed in seconds, not in cycle fraction."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Use the interference lab at equal amplitudes. Predict and check the result at 0°, 180° and 360°.",
+        "answer": "Result amplitude relative to one source is 2, 0, and 2. These are local coherent ideal cases."
+      },
+      {
+        "prompt": "Set the second amplitude to one half and choose 180°. Explain the residual.",
+        "answer": "Opposite signed contributions subtract; their magnitudes differ by 0.5, leaving that amplitude relative to source A."
+      },
+      {
+        "prompt": "At 500 Hz, how much delay is one quarter cycle?",
+        "answer": "T = 1/500 = 0.002 s. Divide by four: 0.0005 s = 0.5 ms. State the sinusoidal frequency with the answer."
+      }
+    ],
+    "summary": [
+      "Phase describes cycle alignment relative to a reference.",
+      "A fixed time delay produces different phase shifts at different frequencies.",
+      "Local coherent cancellation is not whole-room silence."
+    ],
+    "sources": [
+      "os-superposition",
+      "os-modes"
+    ],
+    "diagram": "wave",
+    "lab": "interference",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "intensity",
+    "intro": "A microphone samples pressure at one location. Sound also transfers energy through space. These are connected ideas but different quantities. To ask how much acoustic power crosses an area, we use intensity. To reason about level changes with distance, we must also describe the geometry and losses.\n\nPredict: if the same outgoing acoustic power spreads over four times the area, what happens to power per area? Use your earlier understanding of division before thinking about logarithms.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Acoustic power",
+        "definition": "Rate at which acoustic energy is transferred, measured in watts."
+      },
+      {
+        "term": "Intensity",
+        "definition": "Acoustic energy flow per unit area per time; time-averaged intensity has units W/m²."
+      },
+      {
+        "term": "Free field",
+        "definition": "An ideal setting without reflected contributions from boundaries in the region considered."
+      },
+      {
+        "term": "Spherical spreading",
+        "definition": "A point-source model in which outgoing power spreads over concentric spheres."
+      },
+      {
+        "term": "RMS pressure",
+        "definition": "Square root of the mean squared pressure variation; an effective amplitude, not the peak."
+      }
+    ],
+    "sections": [
+      {
+        "title": "A small window in a sound field",
+        "paragraphs": [
+          "Imagine a small surface receiving energy that crosses it. Divide the acoustic power crossing normally through that area by its area to obtain an average energy flow per area. One watt per square metre means one joule per second crosses each square metre under the stated uniform-normal-flow conditions. The unit differs from pressure’s newtons per square metre.",
+          "Intensity generally has a direction, because energy can flow toward or away from a surface. A pressure measurement alone does not determine that energy flow in an arbitrary sound field. A standing field can have large pressure variations yet zero net time-averaged energy transport in an ideal lossless standing-wave component. We need particle velocity as well as pressure to characterize local acoustic energy flux generally."
+        ]
+      },
+      {
+        "title": "Pressure-squared has conditions",
+        "paragraphs": [
+          "For a single plane progressive wave in a uniform lossless medium, pressure and particle velocity have a particular relationship. At fixed medium properties, average intensity is proportional to squared RMS pressure. Doubling pressure then gives four times intensity. This is the bridge to the different factors used in pressure-level and intensity-level decibels.",
+          "RMS is not “the average signed waveform.” To obtain it, square sample values so both signs contribute positively, average those squares, and take the square root. A square root asks which nonnegative number multiplied by itself gives the value. For a sinusoid, RMS is peak amplitude divided by the square root of two. We do not substitute a peak pressure into an RMS formula without converting it."
+        ]
+      },
+      {
+        "title": "Spreading is a geometry argument",
+        "paragraphs": [
+          "In the ideal steady omnidirectional point-source model, the same outgoing power crosses every enclosing sphere if there are no propagation losses. A sphere’s area grows with radius squared. Doubling radius makes its area four times as large; the same power is then spread four times more thinly, so intensity becomes one quarter.",
+          "Under the corresponding progressive-wave assumptions, RMS pressure halves when intensity falls to one quarter. That result is not automatically true beside a loudspeaker cone or in a reflective room. Directionality, interference, boundaries and source near-field behavior can change the comparison. “Six decibels per doubling” will be a qualified free-field result, not a rule that overrules measurements anywhere in your studio."
+        ]
+      }
+    ],
+    "equation": "I=\\frac{P_{\\mathrm{avg}}}{A}",
+    "symbols": "I is time-averaged intensity in W/m² for the specified uniform normal flow. P_avg is acoustic power crossing area A, in W. A is area in m². This is not electrical amplifier power divided by the floor area of a room.",
+    "worked": {
+      "problem": "A hypothetical uniform acoustic flow transfers 0.020 W across 2 m². Then the same power crosses 8 m². Compare intensities.",
+      "steps": [
+        "First intensity: 0.020 / 2 = 0.010 W/m².",
+        "Second intensity: 0.020 / 8 = 0.0025 W/m².",
+        "Area grew by four, so intensity became one quarter."
+      ],
+      "answer": "The decrease follows fixed acoustic power and specified flow geometry. These numbers are not measurements or safe listening recommendations."
+    },
+    "misconception": {
+      "claim": "A high pressure at one point always proves a large outward energy flow.",
+      "correction": "That inference needs field assumptions. Pressure alone does not determine net acoustic intensity in a general standing or interfering field."
+    },
+    "questions": [
+      {
+        "prompt": "Same outgoing power over four times the area gives…",
+        "options": [
+          "four times intensity",
+          "one quarter intensity",
+          "unchanged intensity"
+        ],
+        "correct": 1,
+        "feedback": [
+          "The power is fixed while the divisor increases.",
+          "Correct. Intensity is power per area.",
+          "Equal power is not equal power per area."
+        ]
+      },
+      {
+        "prompt": "What should you specify before using a pressure-squared intensity relation?",
+        "options": [
+          "Only the graph color",
+          "Traveling-field and medium assumptions, plus RMS versus peak convention",
+          "Only the amplifier watt rating"
+        ],
+        "correct": 1,
+        "feedback": [
+          "Colors do not define an acoustic energy flow.",
+          "Correct. A progressive-wave relation is not a universal pressure-only intensity measurement.",
+          "Electrical input does not specify the local acoustic field."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Explain why doubling distance gives one-quarter intensity only in the specified ideal spreading model.",
+        "answer": "Equal power crosses an enclosing sphere of four times the area, provided the source model and loss-free free-field assumptions apply."
+      },
+      {
+        "prompt": "If RMS pressure doubles in the same progressive-wave medium, by what factor does intensity change?",
+        "answer": "Four: the pressure ratio is squared. Do not assume this for an arbitrary standing field."
+      },
+      {
+        "prompt": "A DAW waveform has positive and negative values with zero signed mean. Does that prove zero RMS?",
+        "answer": "No. Squaring before averaging gives a positive mean square for a nonzero oscillation. Its square root is nonzero."
+      }
+    ],
+    "summary": [
+      "Pressure and intensity describe different quantities.",
+      "RMS is an effective amplitude, not a signed mean or peak.",
+      "Inverse-square spreading and pressure-squared relations require explicit assumptions."
+    ],
+    "sources": [
+      "os-levels"
+    ],
+    "diagram": "wave",
+    "lab": "decibels",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "logarithms",
+    "intro": "A range from one to a million is hard to compare on an ordinary equally spaced number line. Ratios are often more revealing: ten times, a hundred times, a thousand times. A logarithm gives a number to the power needed to produce such a ratio. It does not create a new physical kind of sound.\n\nPredict: multiplying a positive ratio by ten should move its base-ten logarithm by the same amount each time. Could that turn repeated multiplication into repeated addition? Build the table in your head before reaching for a calculator.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Base",
+        "definition": "The number repeatedly raised to powers; here the base is ten."
+      },
+      {
+        "term": "Logarithm",
+        "definition": "The exponent needed to produce a positive number from a chosen base."
+      },
+      {
+        "term": "Log₁₀",
+        "definition": "The base-ten logarithm: log₁₀(100) = 2 because 10² = 100."
+      },
+      {
+        "term": "Reference",
+        "definition": "The comparison quantity used to form a ratio."
+      },
+      {
+        "term": "Logarithmic scale",
+        "definition": "A scale in which equal plotted intervals represent equal multiplicative ratios."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Ask the inverse question",
+        "paragraphs": [
+          "You already know 10³ means 10 × 10 × 10 = 1000. The logarithm asks the reverse question: “Ten raised to what power equals 1000?” Its answer is 3. Thus log₁₀(1000) = 3. Similarly log₁₀(10) = 1, log₁₀(100) = 2, and log₁₀(1) = 0 because 10⁰ = 1.",
+          "For ratios smaller than one, logarithms are negative. One tenth is 10⁻¹, so log₁₀(0.1) = −1. One hundredth gives −2. This does not mean the original ratio or energy was negative. It means the quantity was smaller than its positive reference. In real-number arithmetic used here, zero and negative inputs do not have a defined finite logarithm; zero is approached as the logarithm decreases without bound."
+        ]
+      },
+      {
+        "title": "Between whole powers",
+        "paragraphs": [
+          "Most ratios are not exact powers of ten with whole-number exponents. The logarithm of 2 is about 0.3010: ten raised to that fractional power is two. You do not need to compute fractional powers by hand to use the relationship honestly. A calculator can find log₁₀(2); your job is to supply a positive dimensionless ratio and check that the result lies between log₁₀(1) = 0 and log₁₀(10) = 1.",
+          "The ratio must compare like quantities in consistent units. Dividing 2 Pa by 1 Pa gives 2. Dividing a pressure by a length does not give a valid dimensionless pressure comparison. Convert millipascals and pascals before forming the ratio. Many spectacular dB errors begin with a missing conversion rather than a wrong logarithm button."
+        ]
+      },
+      {
+        "title": "Multiplication becomes addition",
+        "paragraphs": [
+          "Suppose ratio A is ten and ratio B is one hundred. Their product is one thousand. Their logarithms add: 1 + 2 = 3. Generally log₁₀(AB) = log₁₀(A) + log₁₀(B) for positive ratios. Dividing ratios corresponds to subtracting their logarithms. This is why cascaded multiplicative changes can be expressed as additive level changes.",
+          "A log scale is not dishonest, but it must be labeled. On a base-ten log frequency axis, the interval from 100 Hz to 1000 Hz represents the same multiplicative factor as 1000 Hz to 10000 Hz. The numerical differences are different. Do not read equal screen widths as equal hertz increments on such an axis. Before interpreting a measurement graph, inspect both the quantity and its scale."
+        ]
+      }
+    ],
+    "equation": "\\log_{10}(R)=a\\quad\\text{means}\\quad 10^a=R\\,,\\quad R>0",
+    "symbols": "R is a positive dimensionless ratio; a is the exponent that produces R from base ten. The small 10 labels the logarithm’s base. No physical unit goes inside the logarithm after a correctly formed ratio.",
+    "worked": {
+      "problem": "Compare the base-ten logarithms of ratios 1, 10, 100 and 0.01.",
+      "steps": [
+        "Rewrite them as 10⁰, 10¹, 10² and 10⁻².",
+        "Read off the exponents: 0, 1, 2 and −2.",
+        "Check that the ratio below one has a negative logarithm, although the ratio itself is positive."
+      ],
+      "answer": "Each tenfold multiplication adds one to the logarithm. Multiplying 0.01 by ten gives 0.1, moving −2 to −1."
+    },
+    "misconception": {
+      "claim": "A negative logarithm means a negative sound energy.",
+      "correction": "A positive quantity smaller than its positive reference gives a ratio below one and a negative logarithm. No negative energy is implied."
+    },
+    "questions": [
+      {
+        "prompt": "What is log₁₀(1000)?",
+        "options": [
+          "3",
+          "30",
+          "100"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct. Ten cubed equals one thousand.",
+          "This would not be the exponent of ten that gives 1000.",
+          "A logarithm returns the exponent, not the original number divided by ten."
+        ]
+      },
+      {
+        "prompt": "Which is a suitable pressure ratio to put inside a logarithm?",
+        "options": [
+          "2 Pa / 1 Pa",
+          "2 Pa / 1 m",
+          "0 Pa / 1 Pa"
+        ],
+        "correct": 0,
+        "feedback": [
+          "Correct. Like units cancel, leaving a positive dimensionless ratio.",
+          "Pressure and length do not cancel to form this comparison.",
+          "The ratio is zero; its real logarithm is not finite."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Without a calculator, find log₁₀(0.001), log₁₀(1), and log₁₀(10000).",
+        "answer": "−3, 0, and 4. Rewrite each input as a power of ten."
+      },
+      {
+        "prompt": "A ratio changes from 10 to 1000. By how much does its log₁₀ value change?",
+        "answer": "From 1 to 3, a change of 2. The ratio was multiplied by 100."
+      },
+      {
+        "prompt": "Explain how equal intervals on a logarithmic frequency axis differ from equal intervals on a linear axis.",
+        "answer": "Log intervals represent equal frequency ratios; linear intervals represent equal frequency differences. Always read the axis scale."
+      }
+    ],
+    "summary": [
+      "Logarithms ask an exponent question.",
+      "Use positive dimensionless ratios and explicit references.",
+      "Negative logarithms describe ratios below one, not negative physical energy."
+    ],
+    "sources": [
+      "os-units",
+      "os-levels"
+    ],
+    "diagram": "graph",
+    "lab": "decibels",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "decibels",
+    "intro": "A meter reading of “60 dB” is incomplete until you know what quantity was compared, its reference, and how it was processed. A sound-pressure level, an intensity level, and a digital full-scale level need not describe the same thing. Decibels organize ratios; the reference connects that ratio to a particular physical or signal quantity.\n\nPredict: if intensity doubles, should its logarithmic level increase by ten decibels or something smaller? Use log₁₀(2) ≈ 0.3010 from the previous lesson before trying the level lab.",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Level",
+        "definition": "A logarithmic measure of a ratio to a stated reference."
+      },
+      {
+        "term": "Decibel (dB)",
+        "definition": "A named unit used for a logarithmic ratio, with a factor of ten for power-like ratios."
+      },
+      {
+        "term": "SPL",
+        "definition": "Sound pressure level: 20 log₁₀ of an RMS pressure ratio to a stated pressure reference."
+      },
+      {
+        "term": "Reference pressure",
+        "definition": "For conventional airborne SPL, 20 micropascals (20 µPa)."
+      },
+      {
+        "term": "Weighting and bandwidth",
+        "definition": "Frequency processing and frequency range used in a level measurement; comparisons must match these settings."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Intensity level: compare energy flow",
+        "paragraphs": [
+          "The conventional reference intensity is 10⁻¹² W/m², or 0.000000000001 W/m². Form the ratio of your intensity to that reference, take the base-ten logarithm, and multiply by ten. At the reference, the ratio is one, its logarithm is zero, and the level is 0 dB. Zero level therefore means equality with the reference, not zero energy flow.",
+          "Ten times the reference gives 10 dB; one hundred times gives 20 dB; one thousand times gives 30 dB. Doubling intensity produces 10 × log₁₀(2), approximately 3.01 dB. These are physical ratio statements, not universal descriptions of perceived loudness. Human hearing depends on frequency, duration, spectrum, level and individual differences."
+        ]
+      },
+      {
+        "title": "Pressure level: why twenty?",
+        "paragraphs": [
+          "For the same progressive-wave medium, intensity is proportional to RMS pressure squared. A pressure ratio of two corresponds to an intensity ratio of four. Taking ten times the logarithm of the square gives twenty times the logarithm of the pressure ratio. That is why pressure-level comparisons use twenty while intensity-level comparisons use ten.",
+          "Conventional airborne SPL uses the reference 20 µPa. A measured RMS pressure of 40 µPa gives a ratio of two and a level of about 6.02 dB SPL. A pressure of 20 µPa gives 0 dB SPL, and a smaller positive RMS pressure gives a negative level. The reference is not an exact hearing threshold for every person, frequency or context. The SPL definition remains a pressure ratio even when a standing field prevents inferring net intensity from that pressure alone."
+        ]
+      },
+      {
+        "title": "Adding sources requires more than adding the numbers",
+        "paragraphs": [
+          "Two independent equal-level contributions combine by adding their mean-square energies, producing about +3.01 dB relative to one. Two coherent equal sinusoids at one point can instead add in phase to double pressure amplitude, giving +6.02 dB, or oppose and ideally cancel. The difference lies in correlation and phase. Neither “always add three” nor “always add six” is a universal two-speaker rule.",
+          "When comparing measurements, preserve reference, bandwidth, weighting, averaging and calibration. A-weighted and unweighted levels are different processed quantities. A DAW’s dBFS is referenced to digital full scale and does not by itself determine physical SPL at your ears. Hardware gain and transducer sensitivity intervene. The browser’s output gain control is likewise not a calibrated SPL control; start with low device volume and never raise it just to imitate a number in a lesson."
+        ]
+      }
+    ],
+    "equation": "L_p=20\\log_{10}\\!\\left(\\frac{p_{\\mathrm{rms}}}{20\\,\\mu\\mathrm{Pa}}\\right)\\qquad L_I=10\\log_{10}\\!\\left(\\frac{I}{10^{-12}\\,\\mathrm{W/m^2}}\\right)",
+    "symbols": "L_p is conventional airborne sound pressure level in dB SPL; p_rms is RMS acoustic pressure in Pa. µ (mu) means micro, one millionth, so 20 µPa = 0.000020 Pa. L_I is sound intensity level in dB; I is the positive intensity magnitude under the specified flow conditions. Ratios inside log must use consistent units.",
+    "worked": {
+      "problem": "Find SPL for 0.002 Pa RMS, then compare twice that RMS pressure.",
+      "steps": [
+        "Convert the reference: 20 µPa = 0.000020 Pa.",
+        "Ratio = 0.002 / 0.000020 = 100. Since log₁₀(100) = 2, level is 20 × 2 = 40 dB SPL.",
+        "Doubling pressure adds 20 log₁₀(2) ≈ 6.02 dB."
+      ],
+      "answer": "0.004 Pa RMS gives approximately 46.02 dB SPL. This does not assert a particular subjective loudness difference or hearing-safety limit."
+    },
+    "misconception": {
+      "claim": "Two sources always produce a 6 dB increase.",
+      "correction": "Coherent in-phase equal pressure contributions can produce +6.02 dB locally. Independent equal contributions produce +3.01 dB under matching measurement definitions; other correlations and phases give other results."
+    },
+    "questions": [
+      {
+        "prompt": "0 dB SPL conventionally means…",
+        "options": [
+          "no acoustic pressure variation",
+          "RMS pressure equals 20 µPa",
+          "absolute atmospheric pressure is zero"
+        ],
+        "correct": 1,
+        "feedback": [
+          "A nonzero reference pressure gives a zero logarithmic level.",
+          "Correct. The ratio is one, and log₁₀(1) is zero.",
+          "SPL describes acoustic deviation, not the entire ambient pressure."
+        ]
+      },
+      {
+        "prompt": "Two independent 60 dB contributions with matching references combine to about…",
+        "options": [
+          "120 dB",
+          "63.01 dB",
+          "66.02 dB in all cases"
+        ],
+        "correct": 1,
+        "feedback": [
+          "Decibel values cannot be added as linear energies.",
+          "Correct: independent equal energies double, giving +3.01 dB.",
+          "That is the coherent in-phase equal-pressure case, not the independent case."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Use the decibel lab to compare 20 µPa and 40 µPa. Explain the output without invoking perceived loudness.",
+        "answer": "The levels are 0 and about 6.02 dB SPL. RMS pressure doubled relative to the same reference."
+      },
+      {
+        "prompt": "In the ideal spherical progressive-wave case, doubling distance halves pressure. What is the pressure-level change?",
+        "answer": "20 log₁₀(1/2) ≈ −6.02 dB. This distance rule needs the specified free-field assumptions."
+      },
+      {
+        "prompt": "Your DAW reads −12 dBFS. Can you report listening-position SPL from that alone?",
+        "answer": "No. You need the electrical/acoustic chain, gain, calibration and field information. Digital full scale is not an airborne pressure reference."
+      }
+    ],
+    "summary": [
+      "A level needs a quantity, reference and processing definition.",
+      "Intensity ratios use ten times log; RMS pressure ratios use twenty.",
+      "Correlation and phase determine how sources combine; decibel numbers alone are insufficient."
+    ],
+    "sources": [
+      "os-levels"
+    ],
+    "diagram": "graph",
+    "lab": "decibels",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  },
+  {
+    "slug": "sound-checkpoint",
+    "intro": "You now have enough language to tell a physical story from a moving source to a pressure measurement. This checkpoint asks you to connect the pieces instead of naming isolated terms. A correct formula with the wrong interpretation is not enough. Work with paper, pause before the answer disclosures, and explain each result as if teaching another musician.\n\nScenario: a small source generates an approximately sinusoidal 100 Hz disturbance in uniform air. For this model use c = 343 m/s. A receiver is 3.43 m from the source. Ignore reflections and propagation loss when discussing travel time. Treat pressure amplitude separately from propagation speed. What can you predict, and what information is still missing?",
+    "minutes": "12–18 min with the exercises",
+    "terms": [
+      {
+        "term": "Assumption",
+        "definition": "A condition adopted so a model has a defined domain of application."
+      },
+      {
+        "term": "Prediction",
+        "definition": "An expected observable result derived from a stated model and inputs."
+      },
+      {
+        "term": "Calibration",
+        "definition": "Establishing the relation between an instrument’s indication and reference quantities under defined conditions."
+      },
+      {
+        "term": "Transfer question",
+        "definition": "A problem that asks you to apply an idea in a different setting, not merely recall its wording."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Explain the causal chain",
+        "paragraphs": [
+          "Begin with the source: an oscillating boundary interacts with adjacent air. Pressure differences and inertia allow neighboring regions to respond. The resulting disturbance carries energy away, while idealized local parcels move back and forth rather than riding all the way to the receiver. This account distinguishes the material’s motion from the pattern’s propagation.",
+          "At the receiver, a pressure transducer responds to the acoustic variation around ambient pressure. Its output is an electrical representation mediated by its sensitivity and the rest of the measurement chain. A waveform in a DAW is not automatically calibrated in pascals. A pressure-time graph is not the path of an air molecule. Specify the axis quantity and reference before interpreting its shape or level."
+        ]
+      },
+      {
+        "title": "Connect the numbers to the picture",
+        "paragraphs": [
+          "At 100 Hz, period is 1/100 = 0.010 s. Wavelength is 343/100 = 3.43 m. The propagation time over 3.43 m is 3.43/343 = 0.010 s. In this special chosen example the distance equals one wavelength, so the steady sinusoidal pattern advances one cycle over the propagation time. These equal numerical relationships arise from the selected inputs, not from a rule that sound always takes one period to reach a microphone.",
+          "If frequency doubles to 200 Hz while the same medium speed is retained, period halves to 0.005 s and wavelength halves to 1.715 m. Travel time over the unchanged 3.43 m remains 0.010 s. The arrival delay now represents two cycles. This is a powerful test of understanding: repetition changed, spatial spacing changed, but propagation speed and travel time did not."
+        ]
+      },
+      {
+        "title": "Know what the model does not determine",
+        "paragraphs": [
+          "Nothing in those inputs gives the receiver’s RMS pressure. To predict that, you need a source amplitude/radiation model, spreading and losses, and in a real room, boundaries and interference. You cannot turn frequency or wavelength alone into SPL, loudness or absorber efficiency. An equation cannot supply physical information absent from its inputs and assumptions.",
+          "Likewise, good agreement in a simple example is not proof that a complete room model is accurate. Separate three tasks: check arithmetic, inspect model assumptions, and compare with repeatable observations. When a result surprises you, first ask whether the quantity and units are defined. Then ask whether the apparatus and conditions match the model. These habits will matter more than memorizing a list of treatment rules."
+        ]
+      }
+    ],
+    "equation": "T=1/f,\\qquad \\lambda=c/f,\\qquad \\Delta t=d/c",
+    "symbols": "T is period in s; f is frequency in Hz; λ is wavelength in m; c is propagation speed in m/s; d is travel distance in m; Δt is travel delay in s. These expressions assume regular repetition and a constant propagation speed.",
+    "worked": {
+      "problem": "Repeat the scenario at 200 Hz and a receiver distance of 6.86 m. Find period, wavelength and travel delay.",
+      "steps": [
+        "Period: 1/200 = 0.005 s = 5 ms.",
+        "Wavelength: 343/200 = 1.715 m.",
+        "Travel delay: 6.86/343 = 0.020 s = 20 ms. Compare 0.020/0.005 = 4 cycles."
+      ],
+      "answer": "The time delay spans four cycles of this sinusoid. Its wrapped phase matches zero cycles, but the physical delay remains 20 ms; wrapped phase alone does not recover the full delay."
+    },
+    "misconception": {
+      "claim": "If every equation is dimensionally correct, the model must predict the real room.",
+      "correction": "Dimensional consistency is necessary but not sufficient. Missing boundary conditions, calibration, losses or source behavior can still make a model inadequate."
+    },
+    "questions": [
+      {
+        "prompt": "Double frequency at fixed distance and medium speed. Which remains unchanged?",
+        "options": [
+          "Period",
+          "Wavelength",
+          "Propagation delay"
+        ],
+        "correct": 2,
+        "feedback": [
+          "Period halves because T = 1/f.",
+          "Wavelength halves because λ = c/f.",
+          "Correct. Delay is distance divided by unchanged propagation speed."
+        ]
+      },
+      {
+        "prompt": "What extra information is required to report SPL from a DAW waveform?",
+        "options": [
+          "Only the waveform color",
+          "Calibration and the measurement chain linking signal values to pressure",
+          "Only the tone frequency"
+        ],
+        "correct": 1,
+        "feedback": [
+          "Color does not establish a physical reference.",
+          "Correct. A digital value is not automatically a pressure measurement.",
+          "Frequency says how often, not how large the pressure variation is."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "prompt": "Without looking, write a source-to-microphone explanation using force, pressure, inertia, vibration, propagation, and measurement.",
+        "answer": "A strong explanation introduces each link causally, distinguishes particle and pattern motion, and states which quantity the microphone represents."
+      },
+      {
+        "prompt": "Calculate the original 100 Hz example again, carrying units at every step. Then change distance alone to twice its value.",
+        "answer": "Original: T = 10 ms, λ = 3.43 m, delay = 10 ms. At double distance: T and λ unchanged; delay = 20 ms."
+      },
+      {
+        "prompt": "Write two things you can calculate from frequency and speed and three things you cannot predict about your room from them alone.",
+        "answer": "Can calculate period and wavelength. Cannot determine full receiver SPL, decay, material absorption, optimum placement or perceived loudness without additional inputs. Explain any three."
+      }
+    ],
+    "summary": [
+      "Connect quantities in a causal account rather than listing vocabulary.",
+      "Changing repetition rate does not necessarily change propagation speed.",
+      "Calculations, assumptions and measured evidence are separate checks."
+    ],
+    "sources": [
+      "os-waves",
+      "os-sound",
+      "os-speed",
+      "os-levels"
+    ],
+    "diagram": "wave",
+    "lab": "waves",
+    "limits": "Study time is an estimate including prediction, worked examples and independent practice. The model and examples isolate one idea; they are not measurements of your equipment or room."
+  }
+]
