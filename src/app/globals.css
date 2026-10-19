@@ -1,0 +1,6 @@
+/* Foundation only; no course interface or animation is implemented. */
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; font-size: 100%; line-height: 1.6; font-optical-sizing: auto; }
+body { margin: 0; }
+main { max-width: 48rem; margin: 0 auto; padding: 3rem 1.5rem; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; letter-spacing: -0.02em; }
+:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
