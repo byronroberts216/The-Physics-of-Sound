@@ -43,3 +43,8 @@ Actual screenshot review: dark and light dashboard, mobile dashboard, lesson and
 ## Resume commands
 
 Read AGENTS.md and both local SKILL.md files. In `/workspace/The-Physics-of-Sound`, initialize `PATH=/workspace/.tools/node_modules/.bin:$PATH` and set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium` for this Cloud image. Run `pnpm test:science`, `pnpm check:skills`, `pnpm lint`, `pnpm typecheck`, `pnpm build`, `pnpm test`. The browser runner starts its own port-3000 server; stop only manually started task servers before running it. `pnpm test:e2e:production` uses the production server and the same tests. No external keys are needed. Context7 is not available as a native tool; research HTTP is currently unrestricted and OpenAlex metadata access worked.
+
+
+## Vercel tooling follow-up — 2026-10-28
+
+User requested the official agent onboarding playbook. CLI 65.5.0 and nine standalone Vercel skills are installed user-wide. The preferred plugin failed because it is absent from this Codex marketplace; the documented fallback was used. Shared MCP endpoint is configured in the user-wide Codex config but authentication and actual documentation/list_teams tool calls remain unverified. CLI device sign-in completed; `vercel whoami` verified leftyb66-7170. MCP remains blocked by the Cloud loopback OAuth callback and missing native tools in this running chat. No project linking, website deployment, paid service or course-code changes were made. See vercel-agent-setup.md for exact checks and continuation.

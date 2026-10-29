@@ -41,3 +41,5 @@ Read [AGENTS.md](AGENTS.md), the installed [Apple Design skill](.agents/skills/a
 ## Vercel compatibility
 
 Standard Next.js project, Node 24.x, pnpm frozen install and `pnpm build`; keep default Next.js output settings. No custom server or Vercel package is needed. Deployment has not been performed; public deployment requires approval. Hosting terms/quotas must be checked before use.
+
+Vercel agent tooling has been installed separately from deployment. See [docs/vercel-agent-setup.md](docs/vercel-agent-setup.md) for verified CLI/skills state and the outstanding authentication/MCP checks.
